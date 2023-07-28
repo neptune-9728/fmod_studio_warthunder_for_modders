@@ -114,7 +114,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{b673a338-0f1b-42e5-836e-34c58cdd4be3}</destination>
+			<destination>{619b6847-ff99-4c39-92f8-4b98eccb20e9}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{7f0c2537-c0e4-47cb-a661-c6f98749c9b3}">
@@ -141,12 +141,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{091ca939-fd04-4e92-a68e-7b803a42b86b}" />
 	<object class="MixerBusFader" id="{f85bb2a3-c487-4a23-921f-718076a4bc7e}" />
-	<object class="ProgrammerSound" id="{b673a338-0f1b-42e5-836e-34c58cdd4be3}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{619b6847-ff99-4c39-92f8-4b98eccb20e9}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_art_H</value>
+			<value>aH</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{c7ccdf5a-ee6f-43e5-92e5-0e90140d7c65}">

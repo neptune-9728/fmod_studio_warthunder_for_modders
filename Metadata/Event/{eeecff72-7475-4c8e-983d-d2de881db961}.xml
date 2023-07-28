@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{eeecff72-7475-4c8e-983d-d2de881db961}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>voice_message_gunner_fire_engine</value>
 		</property>
@@ -114,9 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{e6b48bd9-e8db-48e9-b02d-e38855dd836e}</destination>
-			<destination>{fcf9db3a-909c-4775-90d3-127d1c776b9b}</destination>
-			<destination>{e118eae2-61f6-4fe2-87f9-3b064d850dce}</destination>
+			<destination>{3f7973ea-b2ad-4d82-b57f-f09961c9c949}</destination>
+			<destination>{ed6342e1-8749-43a3-aa12-caf4c2e5bf2c}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{9b37784a-2875-4802-994d-bb58e89bed16}">
@@ -143,28 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{2ae7cb3a-cfd8-4000-8af9-a2cc2edab4d7}" />
 	<object class="MixerBusFader" id="{c5243c0f-269e-491f-958d-3248db6b9aed}" />
-	<object class="ProgrammerSound" id="{e6b48bd9-e8db-48e9-b02d-e38855dd836e}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{3f7973ea-b2ad-4d82-b57f-f09961c9c949}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_fire_engine_v1</value>
+			<value>engine_fire_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{fcf9db3a-909c-4775-90d3-127d1c776b9b}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{ed6342e1-8749-43a3-aa12-caf4c2e5bf2c}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_fire_engine_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{e118eae2-61f6-4fe2-87f9-3b064d850dce}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/gunner/voice_message_gunner_fire_engine_v3</value>
+			<value>engine_fire_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{3012328f-213e-4c59-9c9e-761d170925fd}">

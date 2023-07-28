@@ -114,12 +114,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{d1fbe55d-da5e-4af2-bb7b-57fe99e6f789}</destination>
-			<destination>{2c6aa12d-0595-4fcb-9246-2649e77e202b}</destination>
-			<destination>{8c8fb480-4a00-44fa-8c11-62e78ec77e8c}</destination>
-			<destination>{0d74d322-826a-4e43-8003-c1366a59e932}</destination>
-			<destination>{82aa0ea4-4caa-4e6e-8605-b2fb4fd78e9d}</destination>
-			<destination>{a38dd84f-9d72-4c53-98d5-4abff7ab5368}</destination>
+			<destination>{f6d964ed-b43e-4f21-bb09-d19e059e928b}</destination>
+			<destination>{c229a548-988b-47c7-b4de-ea0e14b850c8}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{4d621439-b588-4a3f-96ec-0562c838be95}">
@@ -146,52 +142,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{3aba518c-014c-4511-a9e3-0616ef0c1ebc}" />
 	<object class="MixerBusFader" id="{d0cbece2-6552-4e0e-9ba9-9b046d79a865}" />
-	<object class="ProgrammerSound" id="{d1fbe55d-da5e-4af2-bb7b-57fe99e6f789}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{f6d964ed-b43e-4f21-bb09-d19e059e928b}">
 		<property name="name">
-			<value>med/driver/voice_message_driver_engine_fuel_leak_v1_1</value>
+			<value>fuel_leak_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{2c6aa12d-0595-4fcb-9246-2649e77e202b}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{c229a548-988b-47c7-b4de-ea0e14b850c8}">
 		<property name="name">
-			<value>med/driver/voice_message_driver_engine_fuel_leak_v1_2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{8c8fb480-4a00-44fa-8c11-62e78ec77e8c}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>med/driver/voice_message_driver_engine_fuel_leak_v1_3</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{0d74d322-826a-4e43-8003-c1366a59e932}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>med/driver/voice_message_driver_engine_fuel_leak_v2_1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{82aa0ea4-4caa-4e6e-8605-b2fb4fd78e9d}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>med/driver/voice_message_driver_engine_fuel_leak_v2_2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{a38dd84f-9d72-4c53-98d5-4abff7ab5368}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>med/driver/voice_message_driver_engine_fuel_leak_v2_3</value>
+			<value>fuel_leak_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{a6deb089-4bda-43a2-bc9f-90871c5c276d}">

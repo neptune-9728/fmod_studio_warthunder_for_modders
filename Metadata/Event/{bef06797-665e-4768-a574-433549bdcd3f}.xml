@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{bef06797-665e-4768-a574-433549bdcd3f}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>voice_message_driver_weve_been_hit</value>
 		</property>
@@ -114,9 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{b420ae7a-dd09-4ba6-9293-66af04b51e73}</destination>
-			<destination>{4e87e887-7b0e-44bb-9355-581c93cd249e}</destination>
-			<destination>{d902b3e3-513e-4bfe-be59-88b5e1d0a408}</destination>
+			<destination>{b8c90e76-8001-45c0-b632-f6b7ab4d54e0}</destination>
+			<destination>{3f9b5875-a425-406c-b5d7-9cdbfa58460a}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{91b8ddd9-d7d5-4a6c-85b5-807efbcacb01}">
@@ -143,28 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{580ac2c5-c682-4bb8-8856-1b43e85b5512}" />
 	<object class="MixerBusFader" id="{11cec7de-85d0-442d-ae5b-98de215a45ec}" />
-	<object class="ProgrammerSound" id="{b420ae7a-dd09-4ba6-9293-66af04b51e73}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{b8c90e76-8001-45c0-b632-f6b7ab4d54e0}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_weve_been_hit_v1</value>
+			<value>we_been_hit_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{4e87e887-7b0e-44bb-9355-581c93cd249e}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{3f9b5875-a425-406c-b5d7-9cdbfa58460a}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_weve_been_hit_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{d902b3e3-513e-4bfe-be59-88b5e1d0a408}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/driver/voice_message_driver_weve_been_hit_v3</value>
+			<value>we_been_hit_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{c9095240-824b-47fd-a9a7-637eb5e21d4c}">

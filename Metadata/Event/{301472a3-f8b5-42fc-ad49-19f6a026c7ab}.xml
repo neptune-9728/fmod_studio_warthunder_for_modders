@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{301472a3-f8b5-42fc-ad49-19f6a026c7ab}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_driver_running_gear_damaged</value>
 		</property>
@@ -114,9 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{79641262-99c7-46c6-88d7-e40bd144eefa}</destination>
-			<destination>{6edf617d-56f8-4aa9-9207-e374942157a7}</destination>
-			<destination>{5f319999-e572-4ee4-ac8e-0539233223c6}</destination>
+			<destination>{c56ea40e-7495-49ce-893a-5335a65bb0df}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{70c1a5f2-b074-40a6-b048-3549f4b2527b}">
@@ -143,28 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{f68a3059-ce16-4471-8e47-1957bf787f31}" />
 	<object class="MixerBusFader" id="{5886afc3-1fd6-473a-b40b-36351778c6e9}" />
-	<object class="ProgrammerSound" id="{79641262-99c7-46c6-88d7-e40bd144eefa}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{c56ea40e-7495-49ce-893a-5335a65bb0df}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_running_gear_damaged_v1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{6edf617d-56f8-4aa9-9207-e374942157a7}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/driver/voice_message_driver_running_gear_damaged_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{5f319999-e572-4ee4-ac8e-0539233223c6}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/driver/voice_message_driver_running_gear_damaged_v3</value>
+			<value>running_gear_damaged</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{b23e3e99-7440-4d64-a7aa-3811557292a5}">

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{6eb32c31-8a7a-4f30-8205-0a148fe9b57f}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_gunner_rotation_drive_repaired</value>
 		</property>
@@ -114,9 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{e6c94fab-82b6-4eb8-bada-0a38eeb354bf}</destination>
-			<destination>{8186c620-2165-46d7-9a58-cd42f9d515e5}</destination>
-			<destination>{bf4654ba-e9c7-4e3a-a4b7-5d0694b99499}</destination>
+			<destination>{6f5ef600-ce28-4483-a861-84bd404e73c8}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{fc41d8e6-e613-4892-9ad8-bb23d2b9adf2}">
@@ -143,28 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{bb2100a9-ef56-4123-bb7f-605e065030c7}" />
 	<object class="MixerBusFader" id="{9c6af395-aa49-4c19-b0f9-b5572637c8e2}" />
-	<object class="ProgrammerSound" id="{e6c94fab-82b6-4eb8-bada-0a38eeb354bf}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{6f5ef600-ce28-4483-a861-84bd404e73c8}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_rotation_drive_repaired_v1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{8186c620-2165-46d7-9a58-cd42f9d515e5}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/gunner/voice_message_gunner_rotation_drive_repaired_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{bf4654ba-e9c7-4e3a-a4b7-5d0694b99499}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/gunner/voice_message_gunner_rotation_drive_repaired_v3</value>
+			<value>rotation_drive_repair</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{f5be1824-290f-494f-9aff-0b7e4051a1ec}">

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{9635b8eb-fe35-4816-8362-3db2f2ede0c7}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_loader_mg_ready</value>
 		</property>
@@ -114,9 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{e0aeac0a-1f54-4bd8-86d9-31457c47e1a7}</destination>
-			<destination>{0c0946ab-f63a-46b2-9ad1-c7cd3827d91c}</destination>
-			<destination>{718e5cf8-884b-4e80-8b56-6cff0f6be9b6}</destination>
+			<destination>{e1d68286-8fc9-44ed-9203-dd67f833080b}</destination>
+			<destination>{a392362d-e9d2-4c9b-bc63-98d3df7f417d}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{36e747dd-1c9c-4389-939c-037866345ea1}">
@@ -143,28 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{b679d23f-b122-43a1-a928-12fe17c43991}" />
 	<object class="MixerBusFader" id="{8e90a4fb-423c-406d-a86b-59ea2fd53555}" />
-	<object class="ProgrammerSound" id="{e0aeac0a-1f54-4bd8-86d9-31457c47e1a7}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{e1d68286-8fc9-44ed-9203-dd67f833080b}">
 		<property name="name">
-			<value>high/loader/voice_message_loader_mg_ready_v1</value>
+			<value>mg_ready_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{0c0946ab-f63a-46b2-9ad1-c7cd3827d91c}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{a392362d-e9d2-4c9b-bc63-98d3df7f417d}">
 		<property name="name">
-			<value>high/loader/voice_message_loader_mg_ready_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{718e5cf8-884b-4e80-8b56-6cff0f6be9b6}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/loader/voice_message_loader_mg_ready_v3</value>
+			<value>mg_ready_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{9c9303a7-5e88-48e6-88b9-7b4dfab8ae00}">

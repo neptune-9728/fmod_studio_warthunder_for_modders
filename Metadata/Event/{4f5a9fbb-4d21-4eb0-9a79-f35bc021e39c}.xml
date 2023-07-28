@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{4f5a9fbb-4d21-4eb0-9a79-f35bc021e39c}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>voice_message_driver_fire_munition_compartment</value>
 		</property>
@@ -114,9 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{06bdb9d6-3827-49a8-9906-17315febab7f}</destination>
-			<destination>{53efac35-fedb-4e99-9a6b-2c8908fb30ea}</destination>
-			<destination>{d615ef87-8ffd-4d0a-b417-2179d24df94c}</destination>
+			<destination>{ec5b4b23-f16d-4cea-a98b-3c87ab6e271d}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{2ff2e330-9292-434f-a94d-f626bfda5699}">
@@ -143,28 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{19e25816-7507-4496-9852-6956ca36d4d2}" />
 	<object class="MixerBusFader" id="{0a905c39-61c1-46e1-afcc-f58314d63876}" />
-	<object class="ProgrammerSound" id="{06bdb9d6-3827-49a8-9906-17315febab7f}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{ec5b4b23-f16d-4cea-a98b-3c87ab6e271d}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_fire_munition_compartment_v1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{53efac35-fedb-4e99-9a6b-2c8908fb30ea}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/driver/voice_message_driver_fire_munition_compartment_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{d615ef87-8ffd-4d0a-b417-2179d24df94c}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/driver/voice_message_driver_fire_munition_compartment_v3</value>
+			<value>fire_munition</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{a29789c9-f247-4e55-a4b8-eee0c1223b3a}">

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{069c9d51-9a7e-4039-9c19-07bee91369b9}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_target_SPAA</value>
 		</property>
@@ -114,7 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{e82c341d-8db0-4485-a843-ef58e5bc57a5}</destination>
+			<destination>{cdc3466c-5d83-43f3-ba4b-018440c40c95}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{ec533e0d-0fe6-4554-bb33-04d83752df8a}">
@@ -141,12 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{310810de-53d2-4f11-86dc-1bbccb6aac43}" />
 	<object class="MixerBusFader" id="{c87e5d0e-b461-473f-a509-c345c9439f02}" />
-	<object class="ProgrammerSound" id="{e82c341d-8db0-4485-a843-ef58e5bc57a5}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{cdc3466c-5d83-43f3-ba4b-018440c40c95}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_target_SPAA</value>
+			<value>AA</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{e2a5b797-de83-44ac-a655-884899a8ca1e}">

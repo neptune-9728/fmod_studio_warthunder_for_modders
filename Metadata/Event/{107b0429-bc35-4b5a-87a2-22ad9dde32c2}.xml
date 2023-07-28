@@ -125,10 +125,8 @@
 			<value>2</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{1e147f52-a675-4407-8320-dcad799340eb}</destination>
-			<destination>{43df68b2-00d2-4193-bb99-40e58f8d74f9}</destination>
-			<destination>{b71e34cc-7102-4ff6-8a28-e897626ca9af}</destination>
-			<destination>{cf2b3326-d05d-493c-9280-bd4bee2ee6cb}</destination>
+			<destination>{ea42ee61-06f6-4039-89f2-72ed79a8aaaa}</destination>
+			<destination>{0fdd3412-ca6a-4faa-a41d-044b51508ac9}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{a1ffe445-af8b-442f-9a09-0c2f0a8a086d}">
@@ -155,36 +153,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{db59ab02-0808-4b49-89c9-add1337dafe6}" />
 	<object class="MixerBusFader" id="{80bc1152-8ea4-4114-83df-69e7f5d07118}" />
-	<object class="ProgrammerSound" id="{1e147f52-a675-4407-8320-dcad799340eb}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{ea42ee61-06f6-4039-89f2-72ed79a8aaaa}">
 		<property name="name">
-			<value>med/chief_m/voice_message_chief_battle_win_v1</value>
+			<value>win_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{43df68b2-00d2-4193-bb99-40e58f8d74f9}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{0fdd3412-ca6a-4faa-a41d-044b51508ac9}">
 		<property name="name">
-			<value>med/chief_m/voice_message_chief_battle_win_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{b71e34cc-7102-4ff6-8a28-e897626ca9af}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>med/chief_m/voice_message_chief_battle_win_v3</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{cf2b3326-d05d-493c-9280-bd4bee2ee6cb}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>med/chief_m/voice_message_chief_battle_win_v4</value>
+			<value>win_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{2b9988d1-a8e8-4062-8586-45a54f198d32}">

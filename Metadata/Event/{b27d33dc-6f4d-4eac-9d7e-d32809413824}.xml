@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{b27d33dc-6f4d-4eac-9d7e-d32809413824}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_target_vehicle</value>
 		</property>
@@ -114,7 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{3dbd63e1-0057-4f10-9758-bcdd02930fa4}</destination>
+			<destination>{66ee9f2a-c564-459c-bfe8-8ccbc6204364}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{3bb07baf-8201-4a28-baa8-219f586defbe}">
@@ -141,12 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{0d4bbf1c-fb14-4696-9e62-dc7a0a178e87}" />
 	<object class="MixerBusFader" id="{c04dde48-277d-4e4c-af10-c5618f3f9570}" />
-	<object class="ProgrammerSound" id="{3dbd63e1-0057-4f10-9758-bcdd02930fa4}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{66ee9f2a-c564-459c-bfe8-8ccbc6204364}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_target_vehicle</value>
+			<value>car</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{f06b6dae-0b92-4b60-b9b2-01e08335cf08}">

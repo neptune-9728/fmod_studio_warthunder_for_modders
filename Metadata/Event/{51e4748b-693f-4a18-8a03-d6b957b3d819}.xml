@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{51e4748b-693f-4a18-8a03-d6b957b3d819}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_target_leopard</value>
 		</property>
@@ -114,7 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{26f46da8-4f8f-4318-9fa8-068553cd4f1a}</destination>
+			<destination>{36fd4730-8813-4497-b4a6-8fab0dbe7191}</destination>
+			<destination>{0fd7730f-692e-48e1-9107-20b0ec1185fc}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{82863cb1-9455-4f09-b67b-46feb2fa79f5}">
@@ -141,12 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{1bf16df1-4097-46a9-a17b-488c086b5a1c}" />
 	<object class="MixerBusFader" id="{2367f62c-a603-4ec9-b7d5-db92dc62488f}" />
-	<object class="ProgrammerSound" id="{26f46da8-4f8f-4318-9fa8-068553cd4f1a}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{36fd4730-8813-4497-b4a6-8fab0dbe7191}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_target_leopard</value>
+			<value>Leopard_1</value>
+		</property>
+	</object>
+	<object class="ProgrammerSound" id="{0fd7730f-692e-48e1-9107-20b0ec1185fc}">
+		<property name="name">
+			<value>Leopard_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{ffb19196-8bad-4dd6-b1bf-c44504c5c6cb}">

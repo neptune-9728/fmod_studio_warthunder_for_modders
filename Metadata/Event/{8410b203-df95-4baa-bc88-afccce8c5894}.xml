@@ -114,8 +114,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{12f68946-9a2a-4cee-92f2-f5b18174d109}</destination>
-			<destination>{a569e358-929a-4637-8e7c-691c1131596c}</destination>
+			<destination>{2110f184-7978-420a-b107-6237ed275774}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{c27c5e6f-5a12-4c51-8b24-555df96df3f8}">
@@ -142,20 +141,12 @@
 	</object>
 	<object class="MixerBusPanner" id="{dd221219-edd0-4b11-883d-dd75681b6462}" />
 	<object class="MixerBusFader" id="{40c951cb-4313-46ae-8203-3cb5d605e46f}" />
-	<object class="ProgrammerSound" id="{12f68946-9a2a-4cee-92f2-f5b18174d109}">
+	<object class="ProgrammerSound" id="{2110f184-7978-420a-b107-6237ed275774}">
 		<property name="isAsync">
 			<value>true</value>
 		</property>
 		<property name="name">
-			<value>med/commander/voice_message_commander_target_prem_v1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{a569e358-929a-4637-8e7c-691c1131596c}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>med/commander/voice_message_commander_target_prem_v2</value>
+			<value>high/commander/voice_message_commander_target_prem_v2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{f16ef1c1-8d94-4bf9-abfd-af6b98037c5c}">

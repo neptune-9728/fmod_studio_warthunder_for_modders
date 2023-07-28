@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{79102e5c-1591-4d81-a7df-3f0cbf8b77e7}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_gunner_driver_unconscious</value>
 		</property>
@@ -114,9 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{d588d043-3b4c-4800-99bd-48cd7416c35a}</destination>
-			<destination>{0195e65c-5827-4006-a224-f415d60f1073}</destination>
-			<destination>{b9128171-5bb3-43fd-bdd6-4045c5899c2d}</destination>
+			<destination>{5d6fe62c-e4d0-4891-ab46-9302288b43b4}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{580784a2-4abf-4211-a260-01a8e1fec3f9}">
@@ -143,28 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{6ee07f67-3162-4820-a9a2-11557a594b64}" />
 	<object class="MixerBusFader" id="{8c1b0323-2210-4092-8fa5-1fed29c3ad76}" />
-	<object class="ProgrammerSound" id="{d588d043-3b4c-4800-99bd-48cd7416c35a}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{5d6fe62c-e4d0-4891-ab46-9302288b43b4}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_driver_unconscious_v1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{0195e65c-5827-4006-a224-f415d60f1073}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/gunner/voice_message_gunner_driver_unconscious_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{b9128171-5bb3-43fd-bdd6-4045c5899c2d}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/gunner/voice_message_gunner_driver_unconscious_v3</value>
+			<value>driver_unconscious</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{aca08cab-06c6-4c10-8df6-56c7fd1e3cce}">

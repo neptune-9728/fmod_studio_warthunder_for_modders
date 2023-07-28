@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{3e425c28-3cc7-4cc1-81cf-3667c93206fb}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_gunner_turret_left</value>
 		</property>
@@ -117,7 +120,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{b4d1c2b6-39e5-4e01-bc6f-adf96c2d9848}</destination>
+			<destination>{0dd48e23-ee86-4cc2-b7cc-91cdee4faf21}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{8cb3ef6a-192e-4cf7-9f79-bf66308acdad}">
@@ -144,12 +147,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{381cb549-a314-4e17-b6d8-5b0996a8f633}" />
 	<object class="MixerBusFader" id="{32773bbd-33c4-479e-9c38-9c5f07f22c76}" />
-	<object class="ProgrammerSound" id="{b4d1c2b6-39e5-4e01-bc6f-adf96c2d9848}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{0dd48e23-ee86-4cc2-b7cc-91cdee4faf21}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_turret_left_v3</value>
+			<value>turret_left</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{cc0e0082-0bc9-48e3-bc44-b59eeecf4ec2}">

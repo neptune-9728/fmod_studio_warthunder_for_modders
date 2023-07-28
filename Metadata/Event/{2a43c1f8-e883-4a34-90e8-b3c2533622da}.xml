@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{2a43c1f8-e883-4a34-90e8-b3c2533622da}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_gunner_misfire</value>
 		</property>
@@ -114,9 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{391d392f-dfb9-40f2-9af9-ce75677bf844}</destination>
-			<destination>{e8704055-54f8-4064-ae01-d98bc0a105e1}</destination>
-			<destination>{66960cc5-a316-4a38-9306-b2afe7a6b33f}</destination>
+			<destination>{4fd49aee-14d4-46f9-89fb-c77bffbca63e}</destination>
+			<destination>{64a5b213-4c38-4001-9391-33a1307dfc19}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{46ddefbf-fc91-4def-9caa-814fdf89a7a9}">
@@ -143,28 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{20f4df20-42ec-478f-acca-81d5dac5d3fb}" />
 	<object class="MixerBusFader" id="{18db5175-f836-489f-9c48-b5879f06ca46}" />
-	<object class="ProgrammerSound" id="{391d392f-dfb9-40f2-9af9-ce75677bf844}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{4fd49aee-14d4-46f9-89fb-c77bffbca63e}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_misfire_v1</value>
+			<value>misfire_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{e8704055-54f8-4064-ae01-d98bc0a105e1}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{64a5b213-4c38-4001-9391-33a1307dfc19}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_misfire_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{66960cc5-a316-4a38-9306-b2afe7a6b33f}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/gunner/voice_message_gunner_misfire_v3</value>
+			<value>misfire_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{8294da59-d33c-43cc-b3a8-444a0291277a}">

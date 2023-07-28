@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{013c99b6-2db3-4d4d-9eaa-a4d2c583e074}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_driver_correction_undershoot</value>
 		</property>
@@ -114,9 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{8e89c347-d5bf-4ed2-83b0-70356251f8f7}</destination>
-			<destination>{18721b5a-e409-4007-8d3d-158ce68fe07e}</destination>
-			<destination>{4c1eaeda-30ac-4a3b-a6e3-042e8c2154b9}</destination>
+			<destination>{5a3bbf83-cfce-4852-b5ec-128c61c228ea}</destination>
+			<destination>{e54eb5b2-dce3-46aa-b1b0-9b4637c11335}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{af901ce0-4328-4502-96a8-27df2aeb8589}">
@@ -143,28 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{de2eb51d-26ea-435d-b5bc-53fb15563f5d}" />
 	<object class="MixerBusFader" id="{0930c5a6-4103-4b48-bc49-c6d7c1ec711a}" />
-	<object class="ProgrammerSound" id="{8e89c347-d5bf-4ed2-83b0-70356251f8f7}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{5a3bbf83-cfce-4852-b5ec-128c61c228ea}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_correction_undershoot_v1</value>
+			<value>understood_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{18721b5a-e409-4007-8d3d-158ce68fe07e}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{e54eb5b2-dce3-46aa-b1b0-9b4637c11335}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_correction_undershoot_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{4c1eaeda-30ac-4a3b-a6e3-042e8c2154b9}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/driver/voice_message_driver_correction_undershoot_v3</value>
+			<value>understood_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{93d769a5-85bb-4513-8770-950a415222aa}">

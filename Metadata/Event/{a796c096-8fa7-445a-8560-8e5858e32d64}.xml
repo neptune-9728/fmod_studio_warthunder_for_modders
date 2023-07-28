@@ -117,7 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{97a67b08-0bb1-440b-a4d1-ff37949e094f}</destination>
+			<destination>{bd7be0b2-92eb-48b7-8047-7c6935c72b1c}</destination>
+			<destination>{3d7a00e8-7547-46fd-a701-f2a136bebe98}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{792ef7a0-bee0-47a9-a198-e9ea0521836c}">
@@ -144,12 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{1c289f4f-39a7-4f71-8d84-49bbd4f8c32f}" />
 	<object class="MixerBusFader" id="{ff7e34f1-3451-4d72-a193-ffdb86a2db1f}" />
-	<object class="ProgrammerSound" id="{97a67b08-0bb1-440b-a4d1-ff37949e094f}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{bd7be0b2-92eb-48b7-8047-7c6935c72b1c}">
 		<property name="name">
-			<value>med/driver/voice_message_driver_turning_left_v3</value>
+			<value>turn_left_1</value>
+		</property>
+	</object>
+	<object class="ProgrammerSound" id="{3d7a00e8-7547-46fd-a701-f2a136bebe98}">
+		<property name="name">
+			<value>turn_left_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{adb85d88-3e10-4792-9c30-53d640d50357}">

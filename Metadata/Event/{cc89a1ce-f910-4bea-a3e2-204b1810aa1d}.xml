@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{cc89a1ce-f910-4bea-a3e2-204b1810aa1d}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>voice_message_loader_fire_munition_compartment</value>
 		</property>
@@ -114,9 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{ecc9ee6a-1322-442f-b3d0-ab708bbc89c1}</destination>
-			<destination>{af452747-6384-4d2c-8358-4166f91fd59c}</destination>
-			<destination>{f7eb9b01-07ba-471b-8a67-40e560063554}</destination>
+			<destination>{2f664ef1-dde9-49b7-ba28-b7ea30157529}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{1fee50e5-f5f5-4b33-89ae-19457b88fd9a}">
@@ -143,28 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{7fec6efb-c6e3-40ca-892f-8309b49a0298}" />
 	<object class="MixerBusFader" id="{4a22d351-282f-4cdf-9c7e-c1f26a2fdd15}" />
-	<object class="ProgrammerSound" id="{ecc9ee6a-1322-442f-b3d0-ab708bbc89c1}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{2f664ef1-dde9-49b7-ba28-b7ea30157529}">
 		<property name="name">
-			<value>high/loader/voice_message_loader_fire_munition_compartment_v1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{af452747-6384-4d2c-8358-4166f91fd59c}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/loader/voice_message_loader_fire_munition_compartment_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{f7eb9b01-07ba-471b-8a67-40e560063554}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/loader/voice_message_loader_fire_munition_compartment_v3</value>
+			<value>fire_munition</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{40b625bc-f23d-48f5-be75-dd3b6640b700}">

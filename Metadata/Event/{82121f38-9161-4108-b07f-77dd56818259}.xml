@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{82121f38-9161-4108-b07f-77dd56818259}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_target_1700_m</value>
 		</property>
@@ -114,7 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{db839cc2-dcf2-454c-98ce-6c537ad93a66}</destination>
+			<destination>{5394be6b-c277-4adf-b67e-15dfdb5b9aec}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{692343fa-e4a0-4dfc-8db5-0fbcfa5daeb7}">
@@ -141,12 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{8a9f18ca-406a-4854-ac06-37ecfdff0cb0}" />
 	<object class="MixerBusFader" id="{83bcf420-ac77-4903-9f59-dde38df8cea6}" />
-	<object class="ProgrammerSound" id="{db839cc2-dcf2-454c-98ce-6c537ad93a66}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{5394be6b-c277-4adf-b67e-15dfdb5b9aec}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_target_1700_m</value>
+			<value>T1700</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{db68f973-e4d3-4ef4-a963-c45de34c23f6}">

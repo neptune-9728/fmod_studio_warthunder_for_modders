@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{8fef7edc-bb44-45e0-96f1-c475736e2d36}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_target_SAM</value>
 		</property>
@@ -114,7 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{89e54088-8993-4abd-9e31-c0cea11c6ede}</destination>
+			<destination>{63462e16-0c00-414a-b305-c46045a84df0}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{48be79ac-9bc7-490e-8050-f6b48d3a224f}">
@@ -141,12 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{6322cb5b-a1cb-4f6f-b2ad-a0030d9a97e1}" />
 	<object class="MixerBusFader" id="{ae647cf3-a74c-410d-b57b-74c924e5826d}" />
-	<object class="ProgrammerSound" id="{89e54088-8993-4abd-9e31-c0cea11c6ede}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{63462e16-0c00-414a-b305-c46045a84df0}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_target_SAM</value>
+			<value>SAM</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{dda8e9e6-0b5d-4642-9327-bb2c1a171e64}">

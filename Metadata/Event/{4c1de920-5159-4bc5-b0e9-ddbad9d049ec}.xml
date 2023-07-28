@@ -44,9 +44,6 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{614771ef-ce69-4951-84b8-04b1a7cab7bf}">
-		<property name="uiTrackHeight">
-			<value>28</value>
-		</property>
 		<relationship name="mixerGroup">
 			<destination>{cc91ab96-c8f3-4ab7-9059-7dfee377a9eb}</destination>
 		</relationship>
@@ -73,23 +70,21 @@
 			<value>4</value>
 		</property>
 	</object>
-	<object class="MarkerTrack" id="{383b865d-0a5f-4270-b3d7-10fdbd4539d8}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
-	</object>
+	<object class="MarkerTrack" id="{383b865d-0a5f-4270-b3d7-10fdbd4539d8}" />
 	<object class="GroupTrack" id="{be0e7d66-265b-45eb-8e61-304088fa96c0}">
-		<property name="uiTrackHeight">
-			<value>100</value>
-		</property>
 		<relationship name="modules">
 			<destination>{c504882f-ea5e-400a-9ae3-e7ed83fd5dea}</destination>
+			<destination>{70e9ec06-7ade-412e-9ce0-923af2703f18}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{be5f304a-3724-4322-99c6-5341be02abd0}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{79ba221b-e595-40f0-958c-d6570f0e2d7e}" />
+	<object class="Timeline" id="{79ba221b-e595-40f0-958c-d6570f0e2d7e}">
+		<relationship name="modules">
+			<destination>{70e9ec06-7ade-412e-9ce0-923af2703f18}</destination>
+		</relationship>
+	</object>
 	<object class="ParameterProxy" id="{25690c90-2ab2-4c1d-8793-5b30504c5300}">
 		<relationship name="modules">
 			<destination>{c504882f-ea5e-400a-9ae3-e7ed83fd5dea}</destination>
@@ -131,6 +126,18 @@
 			<destination>{653c9293-0c11-4ced-beb9-850485d2c18a}</destination>
 		</relationship>
 	</object>
+	<object class="MultiSound" id="{70e9ec06-7ade-412e-9ce0-923af2703f18}">
+		<property name="length">
+			<value>3</value>
+		</property>
+		<relationship name="sounds">
+			<destination>{5956f189-82d6-4f8f-94f0-25a8c32f0b9d}</destination>
+			<destination>{e651f0f2-23e4-4cb1-8869-c72fc8526c7b}</destination>
+			<destination>{c742853d-2d0a-42a5-bc8c-329f5cc24b43}</destination>
+			<destination>{45076742-b576-48e3-9a26-2d5b5791a7e9}</destination>
+			<destination>{fb81bbad-7894-477e-b907-3bce17edadfb}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{be5f304a-3724-4322-99c6-5341be02abd0}">
 		<property name="name">
 			<value>layer00</value>
@@ -165,6 +172,31 @@
 	<object class="ProgrammerSound" id="{653c9293-0c11-4ced-beb9-850485d2c18a}">
 		<property name="name">
 			<value>voice_messages/voice1/voice_message_yes_0_3</value>
+		</property>
+	</object>
+	<object class="ProgrammerSound" id="{5956f189-82d6-4f8f-94f0-25a8c32f0b9d}">
+		<property name="name">
+			<value>yes_1</value>
+		</property>
+	</object>
+	<object class="ProgrammerSound" id="{e651f0f2-23e4-4cb1-8869-c72fc8526c7b}">
+		<property name="name">
+			<value>yes_2</value>
+		</property>
+	</object>
+	<object class="ProgrammerSound" id="{c742853d-2d0a-42a5-bc8c-329f5cc24b43}">
+		<property name="name">
+			<value>yes_3</value>
+		</property>
+	</object>
+	<object class="ProgrammerSound" id="{45076742-b576-48e3-9a26-2d5b5791a7e9}">
+		<property name="name">
+			<value>yes_4</value>
+		</property>
+	</object>
+	<object class="ProgrammerSound" id="{fb81bbad-7894-477e-b907-3bce17edadfb}">
+		<property name="name">
+			<value>yes_5</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{b4050ba0-1224-437d-9b0c-aacfcf0d87ab}">

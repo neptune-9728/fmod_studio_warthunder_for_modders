@@ -114,9 +114,9 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{1d70fdd2-2efa-40e7-ad82-de2ff045b3a4}</destination>
-			<destination>{eb9e5ada-b9a3-4411-8f86-1c4e86e335df}</destination>
-			<destination>{ed4a3a47-6df1-452f-a120-b53dc0262fec}</destination>
+			<destination>{bd206c11-01df-40a2-afd2-6a898a6bf630}</destination>
+			<destination>{b54a8728-3a0f-4a8c-a492-abb4c0cb13af}</destination>
+			<destination>{a25383a3-4b87-43f4-b01c-24600614eafd}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{00dcdf7d-cc48-4cea-ae42-7ca71512a1cd}">
@@ -143,28 +143,19 @@
 	</object>
 	<object class="MixerBusPanner" id="{8fd03b12-1c45-46e8-a76f-b1bee4bd70f4}" />
 	<object class="MixerBusFader" id="{56188520-72c6-449d-a7cb-efe75ef05a17}" />
-	<object class="ProgrammerSound" id="{1d70fdd2-2efa-40e7-ad82-de2ff045b3a4}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{bd206c11-01df-40a2-afd2-6a898a6bf630}">
 		<property name="name">
-			<value>med/artillery/voice_message_artillery_acknowledged_v1</value>
+			<value>understood_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{eb9e5ada-b9a3-4411-8f86-1c4e86e335df}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{b54a8728-3a0f-4a8c-a492-abb4c0cb13af}">
 		<property name="name">
-			<value>med/artillery/voice_message_artillery_acknowledged_v2</value>
+			<value>understood_2</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{ed4a3a47-6df1-452f-a120-b53dc0262fec}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{a25383a3-4b87-43f4-b01c-24600614eafd}">
 		<property name="name">
-			<value>med/artillery/voice_message_artillery_acknowledged_v3</value>
+			<value>Acknowledged</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{f4e9e81b-5453-4339-b4f1-44cd171b3db9}">

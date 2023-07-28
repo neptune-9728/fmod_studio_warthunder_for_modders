@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{4d5f7d26-de77-46bf-b2ea-642f39f627bc}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_gunner_rotation_drive_damaged</value>
 		</property>
@@ -114,9 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{ba036711-96bc-46e7-9661-b1ece64bdff7}</destination>
-			<destination>{4ad4e213-e039-4786-b850-c8bffd8ee1e5}</destination>
-			<destination>{43d8719a-e95e-45a2-8b6e-c3dee1995320}</destination>
+			<destination>{e8341470-e807-4e94-82f8-3d7567b595e2}</destination>
+			<destination>{fd0ad904-cd3c-4129-a562-e606ed2b0532}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{ac86b0ea-eb2b-4bbc-ac06-269e701550d1}">
@@ -143,28 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{a49dc102-457c-4647-9a95-ceb904e99550}" />
 	<object class="MixerBusFader" id="{d6e8fa43-7d75-40e3-bea0-8c793b816185}" />
-	<object class="ProgrammerSound" id="{ba036711-96bc-46e7-9661-b1ece64bdff7}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{e8341470-e807-4e94-82f8-3d7567b595e2}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_rotation_drive_damaged_v1</value>
+			<value>rotation_drive_damaged_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{4ad4e213-e039-4786-b850-c8bffd8ee1e5}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{fd0ad904-cd3c-4129-a562-e606ed2b0532}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_rotation_drive_damaged_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{43d8719a-e95e-45a2-8b6e-c3dee1995320}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/gunner/voice_message_gunner_rotation_drive_damaged_v3</value>
+			<value>rotation_drive_damaged_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{2ed7042c-a526-4b37-94c3-8c83c82a4200}">

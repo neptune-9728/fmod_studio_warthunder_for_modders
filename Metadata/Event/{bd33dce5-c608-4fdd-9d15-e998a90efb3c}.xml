@@ -114,9 +114,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{9f96a7e8-c7c3-46fa-a0a1-9884130c4d6a}</destination>
-			<destination>{18e07477-8cc9-4aaf-990f-2f74d1a1ce2d}</destination>
-			<destination>{5d4d8afc-0cb4-43bc-b819-3bee8c44ac15}</destination>
+			<destination>{b0aae1a4-5e96-4d71-99f3-33b6ae6c9ecf}</destination>
+			<destination>{c823c229-b722-4150-9f6e-f92b5ec3c8ba}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{843d695a-ddd7-435b-81c5-8e8df46f2d87}">
@@ -143,28 +142,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{d6c6d98b-485d-4bc7-8e5b-b19a0defaeb8}" />
 	<object class="MixerBusFader" id="{fac53fe8-e3ff-49dc-ab95-ffd6f4067453}" />
-	<object class="ProgrammerSound" id="{9f96a7e8-c7c3-46fa-a0a1-9884130c4d6a}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{b0aae1a4-5e96-4d71-99f3-33b6ae6c9ecf}">
 		<property name="name">
-			<value>med/commander/voice_message_commander_shovel_off_v2_1</value>
+			<value>sovel_off_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{18e07477-8cc9-4aaf-990f-2f74d1a1ce2d}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{c823c229-b722-4150-9f6e-f92b5ec3c8ba}">
 		<property name="name">
-			<value>med/commander/voice_message_commander_shovel_off_v2_2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{5d4d8afc-0cb4-43bc-b819-3bee8c44ac15}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>med/commander/voice_message_commander_shovel_off_v2_3</value>
+			<value>sovel_off_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{413c4901-5984-4dda-94a8-6974a3005889}">

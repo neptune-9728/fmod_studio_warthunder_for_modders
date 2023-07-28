@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{1385822a-da34-4f73-9c4b-c9c1ff91401f}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_artillery_acknowledged</value>
 		</property>
@@ -114,9 +117,9 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{77ce8423-1043-4a7c-a193-8e82aeaa975b}</destination>
-			<destination>{718c7612-287a-442a-bf0d-1521ddc34a1d}</destination>
-			<destination>{8a42f485-4cbc-425f-8679-09228a468507}</destination>
+			<destination>{57a9215e-f3a1-4115-8d76-cca04a6322b0}</destination>
+			<destination>{a8417c06-9c02-4917-bb20-472af86a54ce}</destination>
+			<destination>{86d6f78e-9434-4eb7-aa60-4c53452ebe86}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{37554147-6951-4a34-8d76-a3f7581cb6fb}">
@@ -143,28 +146,19 @@
 	</object>
 	<object class="MixerBusPanner" id="{05df55b0-e2fa-4c6b-a7d1-5ad534510f83}" />
 	<object class="MixerBusFader" id="{50c5baf9-dba3-4e77-a584-7100ad2e43db}" />
-	<object class="ProgrammerSound" id="{77ce8423-1043-4a7c-a193-8e82aeaa975b}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{57a9215e-f3a1-4115-8d76-cca04a6322b0}">
 		<property name="name">
-			<value>high/artillery/voice_message_artillery_acknowledged_v1</value>
+			<value>understood_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{718c7612-287a-442a-bf0d-1521ddc34a1d}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{a8417c06-9c02-4917-bb20-472af86a54ce}">
 		<property name="name">
-			<value>high/artillery/voice_message_artillery_acknowledged_v2</value>
+			<value>understood_2</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{8a42f485-4cbc-425f-8679-09228a468507}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{86d6f78e-9434-4eb7-aa60-4c53452ebe86}">
 		<property name="name">
-			<value>high/artillery/voice_message_artillery_acknowledged_v3</value>
+			<value>Acknowledged</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{014c1084-a2d2-4687-88be-f13a707078c9}">

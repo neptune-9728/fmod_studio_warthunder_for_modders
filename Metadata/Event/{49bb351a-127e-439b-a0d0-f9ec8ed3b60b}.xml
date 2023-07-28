@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{49bb351a-127e-439b-a0d0-f9ec8ed3b60b}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>voice_message_gunner_damaged</value>
 		</property>
@@ -114,9 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{523841b3-374b-48f5-ad68-b197428f27bd}</destination>
-			<destination>{528cd8bf-5932-47e0-a33d-b6f262e732d3}</destination>
-			<destination>{59f4d139-667e-4311-ab32-899e154c876e}</destination>
+			<destination>{3e4ff687-4e0d-40f6-a6c2-9c8eb3554bef}</destination>
+			<destination>{78da1de0-51c8-401a-b251-73c90a97ea85}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{94eb368b-c0ff-4944-8f53-77f99e47ec8a}">
@@ -143,28 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{92f57c7f-3182-474d-b280-97fdda9a6904}" />
 	<object class="MixerBusFader" id="{1384c6f5-ba4b-43ed-859d-3780462f4b19}" />
-	<object class="ProgrammerSound" id="{523841b3-374b-48f5-ad68-b197428f27bd}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{3e4ff687-4e0d-40f6-a6c2-9c8eb3554bef}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_damaged_v1</value>
+			<value>damaged_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{528cd8bf-5932-47e0-a33d-b6f262e732d3}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{78da1de0-51c8-401a-b251-73c90a97ea85}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_damaged_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{59f4d139-667e-4311-ab32-899e154c876e}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/gunner/voice_message_gunner_damaged_v3</value>
+			<value>damaged_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{96ada182-dfbf-4492-9284-59278ee4b9f4}">

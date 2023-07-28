@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{bd06ca97-4c28-4f29-abe5-eef25b536cf4}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_aviation_on_the_way</value>
 		</property>
@@ -114,9 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{0de0a267-c042-486c-a62a-fcd8f49ca001}</destination>
-			<destination>{5e016677-4a77-45d7-a326-88d5b84e5473}</destination>
-			<destination>{7cd15b55-6dfb-4ef5-ac7f-b3c2e6b29ddf}</destination>
+			<destination>{31a1ee48-2895-4f76-ac9b-5c5c8cae87b1}</destination>
+			<destination>{bbf3aaea-2a89-4235-8a39-0ff1d2be2c30}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d1bf6d88-e255-4245-a9ab-03225b8dd65b}">
@@ -143,28 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{4b77cc53-1383-4b19-b0d4-d5b873a70cd6}" />
 	<object class="MixerBusFader" id="{d68bf1d9-4864-4d65-a8e5-9e41546da5ff}" />
-	<object class="ProgrammerSound" id="{0de0a267-c042-486c-a62a-fcd8f49ca001}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{31a1ee48-2895-4f76-ac9b-5c5c8cae87b1}">
 		<property name="name">
-			<value>high/aviation/voice_message_aviation_on_the_way_v1</value>
+			<value>aviation_on_the_way_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{5e016677-4a77-45d7-a326-88d5b84e5473}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{bbf3aaea-2a89-4235-8a39-0ff1d2be2c30}">
 		<property name="name">
-			<value>high/aviation/voice_message_aviation_on_the_way_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{7cd15b55-6dfb-4ef5-ac7f-b3c2e6b29ddf}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/aviation/voice_message_aviation_on_the_way_v3</value>
+			<value>aviation_on_the_way_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{2dd8aa35-97f2-43d6-9ff5-5b291906e62d}">

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{ccbdd8cb-53e8-450f-866b-18f4d887cb07}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_target_distance</value>
 		</property>
@@ -114,7 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{47bcf862-0e2c-40f2-8ebb-417c22a9ef86}</destination>
+			<destination>{22afac16-8bab-4922-943d-ff5051f1849b}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{cd6be57f-7227-4732-ab84-c4f59c8a5482}">
@@ -141,12 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{cc71fe13-0915-41b7-bd33-b44e0193118b}" />
 	<object class="MixerBusFader" id="{7445584e-6054-4f88-989f-ff4bb79261f8}" />
-	<object class="ProgrammerSound" id="{47bcf862-0e2c-40f2-8ebb-417c22a9ef86}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{22afac16-8bab-4922-943d-ff5051f1849b}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_target_distance_v3</value>
+			<value>distance</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{016a5e50-5f97-40df-bd78-fd1cf2109c49}">

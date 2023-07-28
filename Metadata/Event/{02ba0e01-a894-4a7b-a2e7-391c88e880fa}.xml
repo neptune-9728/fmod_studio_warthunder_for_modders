@@ -114,10 +114,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{c0d5539e-c87c-418f-a164-22f13f1180d7}</destination>
-			<destination>{73a74641-c0c7-4c16-bbce-eae0a06cd361}</destination>
-			<destination>{58a75cf6-47da-45dc-818d-d70b367409fc}</destination>
-			<destination>{38e29d29-4c45-4cba-b34f-fd771042d7a1}</destination>
+			<destination>{82f5f20b-59f6-443d-ad97-a042bd9897ee}</destination>
+			<destination>{3cb1434f-09da-4a5f-976b-3aefdbee4f16}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{3e816c1a-ddc5-4fec-ac62-435bb44fcb64}">
@@ -144,36 +142,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{c821c449-f505-4892-a58b-9dde29007557}" />
 	<object class="MixerBusFader" id="{4bef0ef8-ec5c-4853-a998-2674e3a63976}" />
-	<object class="ProgrammerSound" id="{c0d5539e-c87c-418f-a164-22f13f1180d7}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{82f5f20b-59f6-443d-ad97-a042bd9897ee}">
 		<property name="name">
-			<value>med/commander/voice_message_commander_ucav_recover_v1_1</value>
+			<value>ucav_off_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{73a74641-c0c7-4c16-bbce-eae0a06cd361}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{3cb1434f-09da-4a5f-976b-3aefdbee4f16}">
 		<property name="name">
-			<value>med/commander/voice_message_commander_ucav_recover_v1_2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{58a75cf6-47da-45dc-818d-d70b367409fc}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>med/commander/voice_message_commander_ucav_recover_v1_3</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{38e29d29-4c45-4cba-b34f-fd771042d7a1}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>med/commander/voice_message_commander_ucav_recover_v2</value>
+			<value>ucav_off_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{54a33a49-b515-4a35-8173-90864563fc13}">

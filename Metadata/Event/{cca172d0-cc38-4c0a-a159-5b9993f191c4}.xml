@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{cca172d0-cc38-4c0a-a159-5b9993f191c4}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_target_BMP</value>
 		</property>
@@ -114,7 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{d833f5ad-9428-4509-9c50-998579f46491}</destination>
+			<destination>{751507ad-74bd-4e4a-8784-fd17f00c933e}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{bd72a094-ed41-4248-9a08-cd471e0f4895}">
@@ -141,12 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{ad584e0f-e8c5-4ada-89b7-47e89a9973de}" />
 	<object class="MixerBusFader" id="{7b2a6d5d-3412-4cda-831a-db1bd32ba355}" />
-	<object class="ProgrammerSound" id="{d833f5ad-9428-4509-9c50-998579f46491}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{751507ad-74bd-4e4a-8784-fd17f00c933e}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_target_BMP</value>
+			<value>BMP</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{ea84cf26-5723-42a5-8820-12dcf9825b46}">

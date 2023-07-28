@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{a4b58e4a-e504-4041-bcf2-69b66cd06eb3}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>voice_message_driver_fire_extinguished</value>
 		</property>
@@ -114,9 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{62e5aebf-09cb-4094-93b3-69cc850e0745}</destination>
-			<destination>{61ef7b23-cc75-4d66-827a-83416ffebe6b}</destination>
-			<destination>{50903d29-c006-46cd-b4ea-afde13b39817}</destination>
+			<destination>{2b5c7dfc-58b5-40e0-80be-6b35e27de1ea}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{041e0a9e-71d7-4acd-afa3-ffbd47e8b0cd}">
@@ -143,28 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{a719c290-6159-4241-9b23-1d83625e1ab9}" />
 	<object class="MixerBusFader" id="{3b3defe3-811a-4bfb-b39c-19a4fe413613}" />
-	<object class="ProgrammerSound" id="{62e5aebf-09cb-4094-93b3-69cc850e0745}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{2b5c7dfc-58b5-40e0-80be-6b35e27de1ea}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_fire_extinguished_v1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{61ef7b23-cc75-4d66-827a-83416ffebe6b}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/driver/voice_message_driver_fire_extinguished_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{50903d29-c006-46cd-b4ea-afde13b39817}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/driver/voice_message_driver_fire_extinguished_v3</value>
+			<value>fire_extinguished</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{1844fa7b-fb07-41cf-b5d5-5127816e8182}">

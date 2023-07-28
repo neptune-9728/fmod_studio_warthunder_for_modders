@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{20dec6c4-6e52-4f90-ba61-b28f87204086}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_stabilizer_off</value>
 		</property>
@@ -114,9 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{08c86e27-2c02-4aa6-a518-932566e069dc}</destination>
-			<destination>{527ef54c-01b0-44cd-b3dc-c3ad60ee84d8}</destination>
-			<destination>{3f118c9f-95dd-495a-ae72-cf182f57caff}</destination>
+			<destination>{469308e6-0c63-416a-b766-7ad611148a17}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{7ac9e20c-7186-4dc9-bfd5-2a79cc4fc590}">
@@ -143,28 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{52d8380d-30f8-462c-beb6-14ea7fa0a189}" />
 	<object class="MixerBusFader" id="{0819ccf1-d857-4e3a-9bb0-92da384ad11e}" />
-	<object class="ProgrammerSound" id="{08c86e27-2c02-4aa6-a518-932566e069dc}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{469308e6-0c63-416a-b766-7ad611148a17}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_stabilizer_off_v1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{527ef54c-01b0-44cd-b3dc-c3ad60ee84d8}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_stabilizer_off_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{3f118c9f-95dd-495a-ae72-cf182f57caff}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_stabilizer_off_v3</value>
+			<value>stabilizer_off</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{9c24387e-50dc-4703-b1f1-068694b149d6}">

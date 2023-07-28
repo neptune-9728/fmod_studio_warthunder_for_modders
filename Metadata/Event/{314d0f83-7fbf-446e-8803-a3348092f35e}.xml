@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{314d0f83-7fbf-446e-8803-a3348092f35e}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_target_panther</value>
 		</property>
@@ -114,7 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{35cf011f-2894-49bc-9596-787d273663fb}</destination>
+			<destination>{56f2598c-e4a8-415e-bdbd-4b63136f2a79}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d3d2db9f-123a-417a-9118-e31bc66577e1}">
@@ -141,12 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{a7642c43-88e8-473c-b220-ccffe5e2e468}" />
 	<object class="MixerBusFader" id="{542a428d-7bb5-46b2-831f-9ebfb468d621}" />
-	<object class="ProgrammerSound" id="{35cf011f-2894-49bc-9596-787d273663fb}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{56f2598c-e4a8-415e-bdbd-4b63136f2a79}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_target_panther</value>
+			<value>panther</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{b8600bf1-6231-454f-8182-ba5d13fc811d}">

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{d21577a4-c576-4edb-acd9-cac621630cef}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>voice_message_loader_driver_unconscious</value>
 		</property>
@@ -114,9 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{85bab068-0c74-48d9-bdb7-8388483e599d}</destination>
-			<destination>{9ad34f97-b8d6-4213-9a6b-4408b87c22d6}</destination>
-			<destination>{9625b421-3a92-4494-bd45-0698207163fd}</destination>
+			<destination>{4e64901f-4917-41ac-a420-183d7cf25b0a}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{77daba3b-c249-41e3-9b43-451991b79f1d}">
@@ -143,28 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{221e4e5d-81c7-4395-9871-1d22a7d4a37b}" />
 	<object class="MixerBusFader" id="{7f309802-8cfb-4acf-adf8-91c9e9a09eb3}" />
-	<object class="ProgrammerSound" id="{85bab068-0c74-48d9-bdb7-8388483e599d}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{4e64901f-4917-41ac-a420-183d7cf25b0a}">
 		<property name="name">
-			<value>high/loader/voice_message_loader_driver_unconscious_v1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{9ad34f97-b8d6-4213-9a6b-4408b87c22d6}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/loader/voice_message_loader_driver_unconscious_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{9625b421-3a92-4494-bd45-0698207163fd}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/loader/voice_message_loader_driver_unconscious_v3</value>
+			<value>driver_unconscious</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{14578bdb-df83-4842-b8c7-f233c397e3a5}">

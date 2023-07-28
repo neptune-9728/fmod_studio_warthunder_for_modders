@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{7396392a-aa74-4548-978a-784bb82b01a0}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>voice_message_driver_turning_left</value>
 		</property>
@@ -117,7 +120,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{b3a22b9f-7a43-4f57-aa89-93f5e96e5873}</destination>
+			<destination>{63e5fbe4-4c91-44e9-a735-1e804ea01002}</destination>
+			<destination>{50947abe-9114-46b2-8686-ec5c5b7a9455}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{e6edd09c-ae66-4df7-b288-a7c0f966cb15}">
@@ -144,12 +148,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{d1b71338-7145-4a9b-a72a-b71554a0cae6}" />
 	<object class="MixerBusFader" id="{79046984-8be2-4410-82e5-a710dd886287}" />
-	<object class="ProgrammerSound" id="{b3a22b9f-7a43-4f57-aa89-93f5e96e5873}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{63e5fbe4-4c91-44e9-a735-1e804ea01002}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_turning_left_v3</value>
+			<value>turn_left_1</value>
+		</property>
+	</object>
+	<object class="ProgrammerSound" id="{50947abe-9114-46b2-8686-ec5c5b7a9455}">
+		<property name="name">
+			<value>turn_left_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{7bbebb42-2c7e-4e6b-8d01-9e3c53e54757}">

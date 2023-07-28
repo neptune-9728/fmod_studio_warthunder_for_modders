@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{d045403e-49b4-41dd-91e4-72eff0c304db}">
+		<property name="color">
+			<value>Cyan</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_load_AP</value>
 		</property>
@@ -114,9 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{fd6dce9c-2795-4791-b3aa-383b6bf523b4}</destination>
-			<destination>{e982e6a1-0995-4dcd-bd26-98e93449b28c}</destination>
-			<destination>{ca55d427-520a-48f3-8984-13f0e3c0c947}</destination>
+			<destination>{3e648fb4-2986-4e3b-9adf-1ca3ed9b8f83}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{58d278cb-b49a-4474-89f4-8b5f5b83e872}">
@@ -143,28 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{d0a560b4-accd-40e6-88a8-16bd52136b77}" />
 	<object class="MixerBusFader" id="{5e3b1e44-eff5-4e9a-b85a-5ad3d4b2fa04}" />
-	<object class="ProgrammerSound" id="{fd6dce9c-2795-4791-b3aa-383b6bf523b4}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{3e648fb4-2986-4e3b-9adf-1ca3ed9b8f83}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_load_AP_v1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{e982e6a1-0995-4dcd-bd26-98e93449b28c}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_load_AP_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{ca55d427-520a-48f3-8984-13f0e3c0c947}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_load_AP_v3</value>
+			<value>AP</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{df6cdf58-b860-400c-b97f-a885398893cb}">

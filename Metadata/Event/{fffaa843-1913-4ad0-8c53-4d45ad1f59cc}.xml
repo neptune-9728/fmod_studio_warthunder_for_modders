@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{fffaa843-1913-4ad0-8c53-4d45ad1f59cc}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_gunner_elevation_drive_damaged</value>
 		</property>
@@ -114,9 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{a1af1daf-32f4-4952-ab21-30e3be64dbab}</destination>
-			<destination>{70a08bad-83c1-4d6e-a9e8-48e32b2b5e52}</destination>
-			<destination>{93b90326-e112-4d46-8394-4b74dfd624d7}</destination>
+			<destination>{c9159028-2983-4912-92c5-6f6dfd9f860b}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{8fcc0c66-03db-4d5a-aec5-9c3fde9a8043}">
@@ -143,28 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{2a26dc30-f26b-47a8-afa2-fdb089578efb}" />
 	<object class="MixerBusFader" id="{86da1578-e745-4508-b1ca-5c18d7b657ea}" />
-	<object class="ProgrammerSound" id="{a1af1daf-32f4-4952-ab21-30e3be64dbab}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{c9159028-2983-4912-92c5-6f6dfd9f860b}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_elevation_drive_damaged_v1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{70a08bad-83c1-4d6e-a9e8-48e32b2b5e52}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/gunner/voice_message_gunner_elevation_drive_damaged_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{93b90326-e112-4d46-8394-4b74dfd624d7}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/gunner/voice_message_gunner_elevation_drive_damaged_v3</value>
+			<value>elevation_drive_damaged</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{143eb387-b95a-465f-b63f-4a20fb1abeec}">

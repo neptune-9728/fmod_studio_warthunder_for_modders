@@ -114,12 +114,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{ff622349-c8d1-48ba-8774-86b733f1328f}</destination>
-			<destination>{8a2f0df8-a26e-4d21-a327-be95b4f27c28}</destination>
-			<destination>{962dc0f4-08f8-40b8-96b9-1c04223d8f69}</destination>
-			<destination>{826611b2-7b8f-492b-9cc2-e2ddf962fdef}</destination>
-			<destination>{a4f6cf83-65d2-45c4-bb06-5c4fecc459c7}</destination>
-			<destination>{1f18ed99-f779-4c0e-9258-7cddf95fd9af}</destination>
+			<destination>{b9153974-37c4-4329-b619-016ab84545df}</destination>
+			<destination>{2e23b526-48c3-425e-a46c-d4458a43e3c5}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{11970c30-ab60-4ef8-afff-756b2a254e43}">
@@ -146,52 +142,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{a9dbd4d6-150c-42b9-ace3-d0129f0eeb89}" />
 	<object class="MixerBusFader" id="{f3ec00b2-044d-4d06-8947-7558a33feb8b}" />
-	<object class="ProgrammerSound" id="{ff622349-c8d1-48ba-8774-86b733f1328f}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{b9153974-37c4-4329-b619-016ab84545df}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_cannon_ready_v1_1</value>
+			<value>cannon_ready_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{8a2f0df8-a26e-4d21-a327-be95b4f27c28}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{2e23b526-48c3-425e-a46c-d4458a43e3c5}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_cannon_ready_v1_2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{962dc0f4-08f8-40b8-96b9-1c04223d8f69}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/gunner/voice_message_gunner_cannon_ready_v1_3</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{826611b2-7b8f-492b-9cc2-e2ddf962fdef}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/gunner/voice_message_gunner_cannon_ready_v2_1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{a4f6cf83-65d2-45c4-bb06-5c4fecc459c7}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/gunner/voice_message_gunner_cannon_ready_v2_2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{1f18ed99-f779-4c0e-9258-7cddf95fd9af}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/gunner/voice_message_gunner_cannon_ready_v2_3</value>
+			<value>cannon_ready_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{431b69bd-a047-49eb-a622-7264e20510b2}">

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{d47b8422-6097-41e3-9324-34e028971fd4}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_gunner_mg_directional_lost</value>
 		</property>
@@ -114,9 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{5280b8de-d81f-4fb5-90b5-725bdf65f3d3}</destination>
-			<destination>{9f7b33fc-e1b7-40c6-9805-de661b97c61a}</destination>
-			<destination>{a0b413db-03e6-4bcd-b1e6-a736d28f5128}</destination>
+			<destination>{0fd2dc2e-4087-4a55-87ee-7964248142e9}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{03bc5e2b-4d49-4728-a190-f345fa3804dc}">
@@ -143,28 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{1588fce1-23e0-4ae8-a89b-dac85d270d34}" />
 	<object class="MixerBusFader" id="{2cdf3cdd-fa9c-443a-8002-626e0fbb16b5}" />
-	<object class="ProgrammerSound" id="{5280b8de-d81f-4fb5-90b5-725bdf65f3d3}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{0fd2dc2e-4087-4a55-87ee-7964248142e9}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_mg_directional_lost_v1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{9f7b33fc-e1b7-40c6-9805-de661b97c61a}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/gunner/voice_message_gunner_mg_directional_lost_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{a0b413db-03e6-4bcd-b1e6-a736d28f5128}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/gunner/voice_message_gunner_mg_directional_lost_v3</value>
+			<value>mg_directional_lost</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{a1df1fa1-961b-4250-aa3c-3f140ee1aa0d}">

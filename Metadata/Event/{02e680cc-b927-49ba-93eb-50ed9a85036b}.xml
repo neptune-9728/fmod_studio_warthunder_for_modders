@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{02e680cc-b927-49ba-93eb-50ed9a85036b}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_driver_engine_stalled</value>
 		</property>
@@ -114,7 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{a729a2d9-0d16-44b7-93ed-43eab3eb4584}</destination>
+			<destination>{ae234a0a-9354-464a-bea6-107a2e14f6a9}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{9fa1b7f4-0977-40aa-be15-7c3e0ab3d4c0}">
@@ -141,12 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{e6dffeac-0b04-493a-973e-eb2d0870a101}" />
 	<object class="MixerBusFader" id="{cfb48e57-c1b4-443c-b134-49beee240c1c}" />
-	<object class="ProgrammerSound" id="{a729a2d9-0d16-44b7-93ed-43eab3eb4584}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{ae234a0a-9354-464a-bea6-107a2e14f6a9}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_engine_stalled_v3</value>
+			<value>engine_stalled</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{ccc8296f-26f0-4af6-b9cd-179e787bfc06}">

@@ -130,8 +130,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{3e739dbd-8b3d-47b3-a610-1f659989c8b8}</destination>
-			<destination>{5423385f-eca9-4769-8542-8a5fceba1f3f}</destination>
+			<destination>{39608924-224e-421b-afeb-c903aab34cc1}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{bb8c2798-7485-4d37-aad6-545c0a9fe928}">
@@ -196,21 +195,10 @@
 	</object>
 	<object class="MixerBusPanner" id="{c966d952-7921-44b2-bab3-d09825f1e638}" />
 	<object class="MixerBusFader" id="{2559ff8c-64ae-4eb7-b8d9-ddd1c3562b8d}" />
-	<object class="EventSound" id="{3e739dbd-8b3d-47b3-a610-1f659989c8b8}">
-		<relationship name="parameters">
-			<destination>{26edc2f8-d890-4911-b3f8-651f228bb87a}</destination>
-		</relationship>
-		<relationship name="event">
-			<destination>{d861e8d6-7826-46d8-b3d1-ed6365f94223}</destination>
-		</relationship>
-	</object>
-	<object class="EventSound" id="{5423385f-eca9-4769-8542-8a5fceba1f3f}">
-		<relationship name="parameters">
-			<destination>{19206910-cc7c-4324-8f8d-9e280b8b333f}</destination>
-		</relationship>
-		<relationship name="event">
-			<destination>{b7737387-06d1-456f-a50a-24ce6f3b1a0a}</destination>
-		</relationship>
+	<object class="ProgrammerSound" id="{39608924-224e-421b-afeb-c903aab34cc1}">
+		<property name="name">
+			<value>shot</value>
+		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{8a595667-5ea6-4a01-a8c1-d2ceda31f21d}">
 		<relationship name="effects">
@@ -251,16 +239,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{7835ae6c-5fe0-493c-a2b4-7f8a2cbc55f5}" />
 	<object class="MixerBusFader" id="{23b69c37-cd7a-47ef-abac-4afb80ee1ac3}" />
-	<object class="ParameterProperty" id="{26edc2f8-d890-4911-b3f8-651f228bb87a}">
-		<relationship name="parameter">
-			<destination>{8cce39f4-5216-4401-b4e1-71deac42141b}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterProperty" id="{19206910-cc7c-4324-8f8d-9e280b8b333f}">
-		<relationship name="parameter">
-			<destination>{32f41c96-aaed-4a0f-8e1b-96a4854068fe}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusFader" id="{d251b7f2-6db7-47ba-9384-db76af82024a}" />
 	<object class="GainEffect" id="{1aa8e88c-4808-4e9d-a977-7e50c7e63150}" />
 	<object class="MixerBusFader" id="{d63a2070-4f3b-49a1-94eb-47dedb4fa35b}" />

@@ -125,10 +125,9 @@
 			<value>2</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{2b86e17c-0c61-4f9b-b993-d2567c31e73d}</destination>
-			<destination>{736fa305-4872-4f1a-a31a-0cfcbe57564b}</destination>
-			<destination>{4d998446-3874-477c-8879-43ec843561bd}</destination>
-			<destination>{7f427280-6764-4260-9ba6-76b34b8e0aec}</destination>
+			<destination>{5c422e20-d8e9-4b38-8235-fed554f0ce28}</destination>
+			<destination>{f69cb724-e1a9-4308-9af5-b870348a0772}</destination>
+			<destination>{9bbc2e45-6bca-46f0-8a04-fe82ee96cc90}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{f550c669-ad53-4b8a-85a6-8ac90178a779}">
@@ -155,36 +154,19 @@
 	</object>
 	<object class="MixerBusPanner" id="{7572a824-4ba5-4a87-b8b0-76488b2e9aad}" />
 	<object class="MixerBusFader" id="{3c035601-ac78-4902-b848-02518bc45193}" />
-	<object class="ProgrammerSound" id="{2b86e17c-0c61-4f9b-b993-d2567c31e73d}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{5c422e20-d8e9-4b38-8235-fed554f0ce28}">
 		<property name="name">
-			<value>med/chief_m/voice_message_chief_battle_loose_v1</value>
+			<value>loose_v1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{736fa305-4872-4f1a-a31a-0cfcbe57564b}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{f69cb724-e1a9-4308-9af5-b870348a0772}">
 		<property name="name">
-			<value>med/chief_m/voice_message_chief_battle_loose_v2</value>
+			<value>loose_v2</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{4d998446-3874-477c-8879-43ec843561bd}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{9bbc2e45-6bca-46f0-8a04-fe82ee96cc90}">
 		<property name="name">
-			<value>med/chief_m/voice_message_chief_battle_loose_v3</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{7f427280-6764-4260-9ba6-76b34b8e0aec}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>med/chief_m/voice_message_chief_battle_loose_v4</value>
+			<value>loose_v3</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{a09d1204-2a21-4221-a1b3-8b9dcde59949}">

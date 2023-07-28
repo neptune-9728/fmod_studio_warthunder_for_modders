@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{59bb1c21-3ad4-4f8b-a30e-72c1497c6d96}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>voice_message_driver_transmission_damaged</value>
 		</property>
@@ -114,9 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{eb316581-8d90-4a4d-a209-16afb56bddce}</destination>
-			<destination>{8b94867b-2751-4830-9d1d-42fa48e470f6}</destination>
-			<destination>{3edd755a-d1f2-4889-bc57-7a1279a5a52c}</destination>
+			<destination>{0a8b9d5e-7e3f-4e00-95a2-4e01c84af591}</destination>
+			<destination>{5ef72599-fb22-43bc-b5ba-034b0e98db88}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d857c6f3-cd19-4261-b289-f268a63e984a}">
@@ -143,28 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{9ff9b19c-d80a-44f3-968c-f4706f76edad}" />
 	<object class="MixerBusFader" id="{cf829c70-b309-4fc8-9a72-52cb08f5d37e}" />
-	<object class="ProgrammerSound" id="{eb316581-8d90-4a4d-a209-16afb56bddce}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{0a8b9d5e-7e3f-4e00-95a2-4e01c84af591}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_transmission_damaged_v1</value>
+			<value>left_track_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{8b94867b-2751-4830-9d1d-42fa48e470f6}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{5ef72599-fb22-43bc-b5ba-034b0e98db88}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_transmission_damaged_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{3edd755a-d1f2-4889-bc57-7a1279a5a52c}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/driver/voice_message_driver_transmission_damaged_v3</value>
+			<value>left_track_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{dde83718-527f-4385-a1bf-a6ae63f5d6b7}">

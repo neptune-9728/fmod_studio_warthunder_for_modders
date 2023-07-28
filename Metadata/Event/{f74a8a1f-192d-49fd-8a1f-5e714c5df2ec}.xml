@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{f74a8a1f-192d-49fd-8a1f-5e714c5df2ec}">
+		<property name="color">
+			<value>Red</value>
+		</property>
 		<property name="name">
 			<value>voice_message_gunner_battle_ready</value>
 		</property>

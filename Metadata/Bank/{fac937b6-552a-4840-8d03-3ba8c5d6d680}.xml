@@ -15,6 +15,9 @@
 		<property name="name">
 			<value>Audio Table</value>
 		</property>
+		<property name="sourceDirectory">
+			<value>D:/AI voice training/W_en/Warthunder_voicepck_Beta/radio</value>
+		</property>
 		<property name="includeSubDirectories">
 			<value>true</value>
 		</property>

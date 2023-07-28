@@ -114,12 +114,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{979d4c45-7a03-464d-944d-cbc497f23475}</destination>
-			<destination>{82b773fb-bd37-4afb-8598-2507c0c87b86}</destination>
-			<destination>{98283b51-125f-4d9d-9577-67820fd15825}</destination>
-			<destination>{6a865cf1-5dd1-498a-ba49-da468c6a2352}</destination>
-			<destination>{9bb745bc-cf9a-4baa-9afb-e01f7e3711d7}</destination>
-			<destination>{5aaed665-2f77-46aa-8c97-5ca3ed3555b4}</destination>
+			<destination>{1c848f64-3e5f-4d8f-874b-199b548b8037}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{50d79c4c-dc6e-41ef-862c-33130052b3d3}">
@@ -146,52 +141,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{641797d4-ad6f-4f36-8276-25bb71f0d30c}" />
 	<object class="MixerBusFader" id="{f19e2f3e-f6db-47f5-8aa9-3320b7def2a8}" />
-	<object class="ProgrammerSound" id="{979d4c45-7a03-464d-944d-cbc497f23475}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{1c848f64-3e5f-4d8f-874b-199b548b8037}">
 		<property name="name">
-			<value>high/chief_m/voice_message_chief_air_danger_v1_1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{82b773fb-bd37-4afb-8598-2507c0c87b86}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/chief_m/voice_message_chief_air_danger_v1_2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{98283b51-125f-4d9d-9577-67820fd15825}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/chief_m/voice_message_chief_air_danger_v1_3</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{6a865cf1-5dd1-498a-ba49-da468c6a2352}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/chief_m/voice_message_chief_air_danger_v2_1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{9bb745bc-cf9a-4baa-9afb-e01f7e3711d7}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/chief_m/voice_message_chief_air_danger_v2_2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{5aaed665-2f77-46aa-8c97-5ca3ed3555b4}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/chief_m/voice_message_chief_air_danger_v2_3</value>
+			<value>air_danger</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{2deef07a-2011-44dd-962c-ed8edf2df460}">

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{37de56ed-3180-4633-8f35-ce33ffecd877}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_engine_start</value>
 		</property>
@@ -114,9 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{d4854136-fef4-4f67-9ba2-2d3b1aae6119}</destination>
-			<destination>{62b28f62-c1c8-409d-af5d-f59484479e00}</destination>
-			<destination>{3751fa43-5558-4c6a-9a6d-8fcc906197a1}</destination>
+			<destination>{977ad0a2-2cf0-480b-bef0-924130649999}</destination>
+			<destination>{6e347f5d-841a-452f-a344-8b100a77995a}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{0c16e566-d576-4e2d-9697-9a98a247580d}">
@@ -143,28 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{330a19c0-e70d-48d6-8d02-a02beab9b249}" />
 	<object class="MixerBusFader" id="{df65c74a-e8a6-4158-a963-787588c3c42a}" />
-	<object class="ProgrammerSound" id="{d4854136-fef4-4f67-9ba2-2d3b1aae6119}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{977ad0a2-2cf0-480b-bef0-924130649999}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_engine_start_v1</value>
+			<value>engine_start_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{62b28f62-c1c8-409d-af5d-f59484479e00}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{6e347f5d-841a-452f-a344-8b100a77995a}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_engine_start_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{3751fa43-5558-4c6a-9a6d-8fcc906197a1}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_engine_start_v3</value>
+			<value>engine_start_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{6c09db99-749b-4eb2-ad3a-367509fb990b}">

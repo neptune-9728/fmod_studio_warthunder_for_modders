@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{a25b36c6-d396-4d32-a85f-3c9a93d74641}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_target_tiger</value>
 		</property>
@@ -114,7 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{8258975f-ed91-4ff1-bf80-a1c91ea45b01}</destination>
+			<destination>{fdf534c2-96cc-49b3-bf27-eb697eaf1f26}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d0ea25a2-0018-4bf4-bc11-e5122cf04d25}">
@@ -141,12 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{76cc9f2e-ae7c-4a1e-a099-e0f368f8b51a}" />
 	<object class="MixerBusFader" id="{9303681e-df2b-41c1-b470-4ab09a57dbaf}" />
-	<object class="ProgrammerSound" id="{8258975f-ed91-4ff1-bf80-a1c91ea45b01}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{fdf534c2-96cc-49b3-bf27-eb697eaf1f26}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_target_tiger</value>
+			<value>tiger</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{c02537ef-7851-4d22-8a13-8c72194a05f9}">

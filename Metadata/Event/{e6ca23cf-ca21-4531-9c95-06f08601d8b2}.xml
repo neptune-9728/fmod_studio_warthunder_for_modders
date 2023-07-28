@@ -114,10 +114,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{aa8bb9ce-7a8b-4792-a086-51317093cbd7}</destination>
-			<destination>{1e3527bb-1ba9-467a-97cd-cedf1c5af752}</destination>
-			<destination>{8ab4187e-4ddc-4e66-be84-61c0df7067a1}</destination>
-			<destination>{b8065c28-83d9-48e4-a3ae-ce00ff43a02b}</destination>
+			<destination>{e16a1255-0dc7-4bd1-a4a2-dd8c8075b98c}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{3bc32e9f-5d71-4b4e-9846-d9a461cbc728}">
@@ -144,36 +141,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{f9ab055a-b2d3-499f-ba14-34660af6f160}" />
 	<object class="MixerBusFader" id="{cc2f53ce-a843-4645-8cb3-608991be736f}" />
-	<object class="ProgrammerSound" id="{aa8bb9ce-7a8b-4792-a086-51317093cbd7}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{e16a1255-0dc7-4bd1-a4a2-dd8c8075b98c}">
 		<property name="name">
-			<value>med/commander/voice_message_commander_art_barrage_v1_1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{1e3527bb-1ba9-467a-97cd-cedf1c5af752}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>med/commander/voice_message_commander_art_barrage_v1_2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{8ab4187e-4ddc-4e66-be84-61c0df7067a1}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>med/commander/voice_message_commander_art_barrage_v2_1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{b8065c28-83d9-48e4-a3ae-ce00ff43a02b}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>med/commander/voice_message_commander_art_barrage_v2_2</value>
+			<value>artillery_barrage</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{04875ab3-b481-498e-bd8e-c572b83eaf61}">

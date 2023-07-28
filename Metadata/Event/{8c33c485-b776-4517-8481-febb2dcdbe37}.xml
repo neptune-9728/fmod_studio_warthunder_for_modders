@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{8c33c485-b776-4517-8481-febb2dcdbe37}">
+		<property name="color">
+			<value>Purple Light 1</value>
+		</property>
 		<property name="name">
 			<value>voice_message_artillery_G</value>
 		</property>
@@ -114,7 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{2daa8973-325c-4105-a795-121feb13aee0}</destination>
+			<destination>{2d88679c-3319-4782-bcfe-9da43745038f}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{561bd366-e70a-4ca5-976a-90a860c84bb4}">
@@ -141,12 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{0dffd6f3-7290-4058-966e-ee801cd404a7}" />
 	<object class="MixerBusFader" id="{79e604af-0e5d-4a73-96d8-cabd0ea29edc}" />
-	<object class="ProgrammerSound" id="{2daa8973-325c-4105-a795-121feb13aee0}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{2d88679c-3319-4782-bcfe-9da43745038f}">
 		<property name="name">
-			<value>high/artillery/voice_message_artillery_G</value>
+			<value>aG</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{cd47da87-94a0-46e2-86c3-27e9b89fb79f}">

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{babedc89-df1a-4d54-bcde-69334783336f}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_night_vision_on</value>
 		</property>
@@ -114,9 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{0b22107b-c6cf-4fd6-937f-e8310bec5a30}</destination>
-			<destination>{1e99ef67-1777-4163-a497-925f554800ab}</destination>
-			<destination>{8dd52440-4d95-46e2-bf22-d1aa3ef48413}</destination>
+			<destination>{80169048-d437-494c-98db-7e0cc15488b2}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{7169c55e-6ca5-4d2e-9edc-a95553859bd4}">
@@ -143,28 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{16d04464-4842-4686-affd-3603c71046fe}" />
 	<object class="MixerBusFader" id="{393764c3-7055-419b-b07d-39efb66207bc}" />
-	<object class="ProgrammerSound" id="{0b22107b-c6cf-4fd6-937f-e8310bec5a30}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{80169048-d437-494c-98db-7e0cc15488b2}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_night_vision_on_v1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{1e99ef67-1777-4163-a497-925f554800ab}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_night_vision_on_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{8dd52440-4d95-46e2-bf22-d1aa3ef48413}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_night_vision_on_v3</value>
+			<value>night_vision_on</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{7449f1cf-8038-41cb-9923-9e288d91302b}">

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{3596ef37-2b99-4262-b9e0-f740e7fb5a4a}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>voice_message_gunner_loader_stunned</value>
 		</property>
@@ -114,9 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{6c944bb2-c8fd-436e-9862-8d133c04a150}</destination>
-			<destination>{f334b9f5-c581-40a4-b259-18f10e8a83aa}</destination>
-			<destination>{4d0d3b40-0a21-4e2d-b972-af63f82f851a}</destination>
+			<destination>{83e6a863-580e-4684-a18d-de3998779aab}</destination>
+			<destination>{cd3a2653-0752-4fec-a7ac-620865462e75}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{10be40c3-05b4-4fdc-aeed-fc77299089b0}">
@@ -143,28 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{8cc357ae-5868-4522-9c5f-310e71efd535}" />
 	<object class="MixerBusFader" id="{de5b2d9b-2944-4bcd-9edb-3d921cfea25c}" />
-	<object class="ProgrammerSound" id="{6c944bb2-c8fd-436e-9862-8d133c04a150}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{83e6a863-580e-4684-a18d-de3998779aab}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_loader_stunned_v1</value>
+			<value>loader_stunned_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{f334b9f5-c581-40a4-b259-18f10e8a83aa}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{cd3a2653-0752-4fec-a7ac-620865462e75}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_loader_stunned_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{4d0d3b40-0a21-4e2d-b972-af63f82f851a}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/gunner/voice_message_gunner_loader_stunned_v3</value>
+			<value>loader_stunned_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{f44306fa-9099-467b-bef5-3657f17495d0}">

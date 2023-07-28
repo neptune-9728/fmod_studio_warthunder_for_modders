@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{9b8fd2b0-a07b-4186-9f33-06e2ed4475f2}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_gunner_elevation_drive_repaired</value>
 		</property>
@@ -114,9 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{091c9a13-dc94-4a9e-b5ed-a7dc6015ede3}</destination>
-			<destination>{f8d4bdd7-c993-41a1-b0a6-edfd5a62607a}</destination>
-			<destination>{25aab004-1739-41ef-baad-e390a79cd864}</destination>
+			<destination>{bdc204ec-2f1e-4b8a-ae5b-5f23e44918d3}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{141e9df6-0dc4-4da7-a5e2-a57623962d0d}">
@@ -143,28 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{228a74db-0ee6-4be2-8ed6-a8c0af3c46f9}" />
 	<object class="MixerBusFader" id="{da0dc226-5a8f-4896-aa7e-1ace635a6f37}" />
-	<object class="ProgrammerSound" id="{091c9a13-dc94-4a9e-b5ed-a7dc6015ede3}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{bdc204ec-2f1e-4b8a-ae5b-5f23e44918d3}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_elevation_drive_repaired_v1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{f8d4bdd7-c993-41a1-b0a6-edfd5a62607a}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/gunner/voice_message_gunner_elevation_drive_repaired_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{25aab004-1739-41ef-baad-e390a79cd864}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/gunner/voice_message_gunner_elevation_drive_repaired_v3</value>
+			<value>elevation_drive_repaired</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{9e5e7b58-17e2-47e8-a9c8-98f01d29ab7a}">

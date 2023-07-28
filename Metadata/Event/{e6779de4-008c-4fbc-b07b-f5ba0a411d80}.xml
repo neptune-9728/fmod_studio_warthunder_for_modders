@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{e6779de4-008c-4fbc-b07b-f5ba0a411d80}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_driver_radiator_damaged</value>
 		</property>
@@ -114,7 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{784e20fb-d0c3-4637-967b-10a1ccbe83b4}</destination>
+			<destination>{94d1252f-1fc2-4e90-837b-0908b2506483}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{499c2827-1c24-442a-af45-81f3b5c005bd}">
@@ -141,12 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{013f30fc-d624-4376-830b-da26dcc3952c}" />
 	<object class="MixerBusFader" id="{2d67430e-df96-4d8e-9459-3b936ed69b18}" />
-	<object class="ProgrammerSound" id="{784e20fb-d0c3-4637-967b-10a1ccbe83b4}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{94d1252f-1fc2-4e90-837b-0908b2506483}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_radiator_damaged_v1</value>
+			<value>radiator_damaged</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{684b1f59-31ad-45b7-ab90-d1d630718284}">

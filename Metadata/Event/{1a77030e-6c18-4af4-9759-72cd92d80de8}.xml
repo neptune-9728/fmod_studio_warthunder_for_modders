@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{1a77030e-6c18-4af4-9759-72cd92d80de8}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_move_backward</value>
 		</property>
@@ -114,9 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{09a69a3e-7832-46d6-9b3f-bc93e0923fed}</destination>
-			<destination>{bfed06e4-1248-41f8-b39e-5735a06c8ba7}</destination>
-			<destination>{b7dc1f85-748d-4f26-977c-b8b3aeacdab3}</destination>
+			<destination>{f5ab621a-651b-4a24-a99e-d4b02fff8704}</destination>
+			<destination>{3a6d2938-02ac-4899-ab64-40980996dfbc}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{546e64d1-97bb-4f00-908e-73ce1e1ef524}">
@@ -143,28 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{fe2d573c-f348-4cf2-bde7-a7132fe0e741}" />
 	<object class="MixerBusFader" id="{2f10996e-54c7-43f8-9a60-6617cf0e149d}" />
-	<object class="ProgrammerSound" id="{09a69a3e-7832-46d6-9b3f-bc93e0923fed}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{f5ab621a-651b-4a24-a99e-d4b02fff8704}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_move_backward_v1</value>
+			<value>move_back_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{bfed06e4-1248-41f8-b39e-5735a06c8ba7}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{3a6d2938-02ac-4899-ab64-40980996dfbc}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_move_backward_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{b7dc1f85-748d-4f26-977c-b8b3aeacdab3}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_move_backward_v3</value>
+			<value>move_back_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{ae7dec1f-1869-4a68-99bf-9e8028a8e6c3}">

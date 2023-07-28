@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{b078d8e2-fa29-41f4-9c9d-65b35d674fa2}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_target_aircraft</value>
 		</property>
@@ -114,7 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{c24dbb45-6b65-41cc-950c-16455f43156d}</destination>
+			<destination>{904e24bc-b8d7-42d9-851e-b53c9736bd2e}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{bdd3160f-3c9e-4de0-ac56-f1d971ddec1d}">
@@ -141,12 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{0bdd68c7-59f4-4061-a67e-e815c089a750}" />
 	<object class="MixerBusFader" id="{8012d764-5141-4a1c-b20b-0fcb7dd5dc98}" />
-	<object class="ProgrammerSound" id="{c24dbb45-6b65-41cc-950c-16455f43156d}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{904e24bc-b8d7-42d9-851e-b53c9736bd2e}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_target_aircraft</value>
+			<value>Aircraft</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{23e71448-13cd-4b4d-91e5-bdf491dd492e}">

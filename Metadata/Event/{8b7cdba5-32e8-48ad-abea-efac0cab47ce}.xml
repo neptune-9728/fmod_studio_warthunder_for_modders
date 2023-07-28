@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{8b7cdba5-32e8-48ad-abea-efac0cab47ce}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>voice_message_driver_right_track</value>
 		</property>
@@ -114,9 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{52685ebf-e32d-4537-9a7a-f2b023c754d4}</destination>
-			<destination>{0ae7ab5c-b02e-492f-92eb-e94edd39b2d4}</destination>
-			<destination>{1600fd47-7ee6-49dc-9cac-01949d8d7c7d}</destination>
+			<destination>{07f0a16c-bb01-4744-85c1-8d6cd7cd1185}</destination>
+			<destination>{84d01980-2bb3-4522-8f1e-642c6445f4c4}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{3bec0b93-4296-483d-b409-1db56b536978}">
@@ -143,28 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{09583731-f903-4ffa-a75b-f4d941c19dd8}" />
 	<object class="MixerBusFader" id="{92b83e3c-81ea-462c-84e7-5b2fb86ad94a}" />
-	<object class="ProgrammerSound" id="{52685ebf-e32d-4537-9a7a-f2b023c754d4}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{07f0a16c-bb01-4744-85c1-8d6cd7cd1185}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_right_track_v1</value>
+			<value>left_track_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{0ae7ab5c-b02e-492f-92eb-e94edd39b2d4}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{84d01980-2bb3-4522-8f1e-642c6445f4c4}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_right_track_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{1600fd47-7ee6-49dc-9cac-01949d8d7c7d}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/driver/voice_message_driver_right_track_v3</value>
+			<value>left_track_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{085e122b-df2a-495c-a033-74ab16ad40b8}">

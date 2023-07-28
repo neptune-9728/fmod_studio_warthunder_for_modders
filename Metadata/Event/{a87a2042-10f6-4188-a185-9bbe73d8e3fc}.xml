@@ -114,10 +114,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{aeaf1ad9-f483-4877-a15a-a9d2ab3281d8}</destination>
-			<destination>{a2ca2917-066c-472c-91f6-4387ed0a5dee}</destination>
-			<destination>{b54bc83a-845f-4e25-93d5-be2eedcf0bda}</destination>
-			<destination>{3f96c3c6-f6c1-404b-b69a-5a5bfbac6b05}</destination>
+			<destination>{26b0fa69-43b4-4fca-91db-ee59a4878de7}</destination>
+			<destination>{d5ac830d-0b10-4cce-ae2c-6e24c5e1611e}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{c5905cf9-fea5-4e91-87a0-3fc7c8b719c7}">
@@ -144,36 +142,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{12953b87-4496-4d09-b11d-711ff6f8c004}" />
 	<object class="MixerBusFader" id="{ebca1f41-f2bc-4e01-9c8d-69a2dd966b67}" />
-	<object class="ProgrammerSound" id="{aeaf1ad9-f483-4877-a15a-a9d2ab3281d8}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{26b0fa69-43b4-4fca-91db-ee59a4878de7}">
 		<property name="name">
-			<value>med/driver/voice_message_driver_engine_stalled_v1_1</value>
+			<value>engine_off_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{a2ca2917-066c-472c-91f6-4387ed0a5dee}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{d5ac830d-0b10-4cce-ae2c-6e24c5e1611e}">
 		<property name="name">
-			<value>med/driver/voice_message_driver_engine_stalled_v1_2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{b54bc83a-845f-4e25-93d5-be2eedcf0bda}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>med/driver/voice_message_driver_engine_stalled_v1_3</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{3f96c3c6-f6c1-404b-b69a-5a5bfbac6b05}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>med/driver/voice_message_driver_engine_stalled_v2</value>
+			<value>engine_off_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{45911794-5d27-4ec2-9809-a41c3734195d}">

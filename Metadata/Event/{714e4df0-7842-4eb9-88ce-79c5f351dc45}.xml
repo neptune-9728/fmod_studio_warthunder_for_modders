@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{714e4df0-7842-4eb9-88ce-79c5f351dc45}">
+		<property name="color">
+			<value>Magenta</value>
+		</property>
 		<property name="name">
 			<value>voice_message_artillery_understood</value>
 		</property>
@@ -114,9 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{79fddb33-954d-4662-bdc0-25cedb1d5257}</destination>
-			<destination>{02c5570e-52b4-463d-a6bf-ff4fd3e58f2d}</destination>
-			<destination>{7612796d-c410-4e40-a92f-9606752f2d7c}</destination>
+			<destination>{5a4099f9-0007-4dbb-8588-ee69a811b944}</destination>
+			<destination>{cbff1072-16ef-4293-93cc-6030536d078d}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{144e6847-c4bb-4c45-86fc-0b80894503d9}">
@@ -143,28 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{79516b00-e85b-4e5c-84f6-a52c14ae1c3f}" />
 	<object class="MixerBusFader" id="{423aa6d3-ff7a-4c90-988c-604b35f89e1a}" />
-	<object class="ProgrammerSound" id="{79fddb33-954d-4662-bdc0-25cedb1d5257}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{5a4099f9-0007-4dbb-8588-ee69a811b944}">
 		<property name="name">
-			<value>high/artillery/voice_message_artillery_understood_v1</value>
+			<value>understood_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{02c5570e-52b4-463d-a6bf-ff4fd3e58f2d}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{cbff1072-16ef-4293-93cc-6030536d078d}">
 		<property name="name">
-			<value>high/artillery/voice_message_artillery_understood_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{7612796d-c410-4e40-a92f-9606752f2d7c}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/artillery/voice_message_artillery_understood_v3</value>
+			<value>understood_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{723eef35-319c-4410-ad27-7b16fcde1f22}">

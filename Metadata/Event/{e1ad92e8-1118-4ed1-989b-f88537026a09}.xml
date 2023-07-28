@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{e1ad92e8-1118-4ed1-989b-f88537026a09}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_engine_stop</value>
 		</property>
@@ -114,9 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{f8c8ab4c-5559-4e57-bcee-36482a9f8212}</destination>
-			<destination>{ed019756-f93c-4311-83af-6efac7334bed}</destination>
-			<destination>{c3e9674d-3ef8-4e34-bd6b-e14bee9f96ae}</destination>
+			<destination>{ac21218a-8bff-46da-bd06-ca485993d48b}</destination>
+			<destination>{c24e9b7f-e49c-4e96-92f2-01a3150c5fc0}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{fd338ebd-d6b5-4c90-9bef-20a33974e758}">
@@ -143,28 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{aca7a3ca-6f63-4ae9-bbbb-a8787da4b5cc}" />
 	<object class="MixerBusFader" id="{4e5b96a2-dab7-4d4a-b106-ebe031df9598}" />
-	<object class="ProgrammerSound" id="{f8c8ab4c-5559-4e57-bcee-36482a9f8212}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{ac21218a-8bff-46da-bd06-ca485993d48b}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_engine_stop_v1</value>
+			<value>engine_off_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{ed019756-f93c-4311-83af-6efac7334bed}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{c24e9b7f-e49c-4e96-92f2-01a3150c5fc0}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_engine_stop_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{c3e9674d-3ef8-4e34-bd6b-e14bee9f96ae}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_engine_stop_v3</value>
+			<value>engine_off_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{d7996fe6-7902-41d8-8236-c619025f715e}">

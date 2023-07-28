@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{791d39ce-563d-4b69-8531-2b1cb5826b6c}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_target_merkava</value>
 		</property>
@@ -114,7 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{3b46ba5e-d607-46f9-8747-cf7e9fc95bd8}</destination>
+			<destination>{b18277de-c376-41e1-aeba-4074ba3e8dba}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d519b90d-0b9d-49b5-8ab4-fddee646313f}">
@@ -141,12 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{eacc3b48-21c6-458d-aaa2-b5f7fe9e953d}" />
 	<object class="MixerBusFader" id="{4ecea516-f62b-42d9-8c5d-ab72fc5ed824}" />
-	<object class="ProgrammerSound" id="{3b46ba5e-d607-46f9-8747-cf7e9fc95bd8}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{b18277de-c376-41e1-aeba-4074ba3e8dba}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_target_merkava</value>
+			<value>merkava</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{60b289d4-bcc0-4564-8892-27d03211e252}">

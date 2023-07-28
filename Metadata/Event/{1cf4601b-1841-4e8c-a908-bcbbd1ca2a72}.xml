@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{1cf4601b-1841-4e8c-a908-bcbbd1ca2a72}">
+		<property name="color">
+			<value>Magenta</value>
+		</property>
 		<property name="name">
 			<value>voice_message_artillery_open_fire</value>
 		</property>
@@ -114,9 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{33810cbe-1fca-4139-b9e1-19e5b6d6d6bd}</destination>
-			<destination>{74b777c4-7c5d-4f96-a7d8-b0335dbf2ad4}</destination>
-			<destination>{896e2493-2885-4bb7-9166-a11e53f683bd}</destination>
+			<destination>{f02f229a-d6f0-4944-b5a2-a3ec5e6a447f}</destination>
+			<destination>{2ce0e68e-1d7c-414b-b6ee-d7f30fcab1a7}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{4406e387-0fa6-4bea-9041-1cfea7e92784}">
@@ -143,28 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{8a4d4a3c-3164-46c9-8f27-03281b1c57e7}" />
 	<object class="MixerBusFader" id="{e9a57a9d-52bc-4fdd-9078-1c893e170327}" />
-	<object class="ProgrammerSound" id="{33810cbe-1fca-4139-b9e1-19e5b6d6d6bd}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{f02f229a-d6f0-4944-b5a2-a3ec5e6a447f}">
 		<property name="name">
-			<value>high/artillery/voice_message_artillery_open_fire_v1</value>
+			<value>open_fire_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{74b777c4-7c5d-4f96-a7d8-b0335dbf2ad4}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{2ce0e68e-1d7c-414b-b6ee-d7f30fcab1a7}">
 		<property name="name">
-			<value>high/artillery/voice_message_artillery_open_fire_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{896e2493-2885-4bb7-9166-a11e53f683bd}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/artillery/voice_message_artillery_open_fire_v3</value>
+			<value>open_fire_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{b0c8bcb3-476c-4301-8b6d-651f8c3621e1}">

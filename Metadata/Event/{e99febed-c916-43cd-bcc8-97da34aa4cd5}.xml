@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{e99febed-c916-43cd-bcc8-97da34aa4cd5}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_target_MLRS</value>
 		</property>
@@ -114,7 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{f0e24ffb-b87f-4509-afca-4fcfcb46d0d2}</destination>
+			<destination>{9dc1d8c0-cab5-477a-b55c-16e06883a3b2}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{ca3bc16f-dae2-4ca4-af4b-75c2846424eb}">
@@ -141,12 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{ac6cdaa2-bdd5-40d7-9c0b-36ce30e61412}" />
 	<object class="MixerBusFader" id="{abb0e0de-1422-4e34-be9a-7ffe28ea2095}" />
-	<object class="ProgrammerSound" id="{f0e24ffb-b87f-4509-afca-4fcfcb46d0d2}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{9dc1d8c0-cab5-477a-b55c-16e06883a3b2}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_target_MLRS</value>
+			<value>MLRS</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{27c46918-53db-428b-94b4-dd8b8883f87f}">

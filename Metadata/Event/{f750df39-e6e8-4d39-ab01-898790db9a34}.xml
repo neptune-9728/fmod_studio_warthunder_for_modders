@@ -73,7 +73,7 @@
 	<object class="MarkerTrack" id="{e2c404ff-0632-4d84-ba69-8cb581902fde}" />
 	<object class="GroupTrack" id="{10ef304b-0358-416d-8710-93ef2c3a97a4}">
 		<relationship name="modules">
-			<destination>{9159da99-f216-4b5a-9271-3f4a0da951b7}</destination>
+			<destination>{18b20d06-9276-49da-b9e8-ed428712b7e9}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{fb2d5011-3cfc-4a45-9ba1-a202df3abf91}</destination>
@@ -81,7 +81,7 @@
 	</object>
 	<object class="Timeline" id="{207c3f5e-e461-4cf2-b7d1-70ea09506188}">
 		<relationship name="modules">
-			<destination>{9159da99-f216-4b5a-9271-3f4a0da951b7}</destination>
+			<destination>{18b20d06-9276-49da-b9e8-ed428712b7e9}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{1ca89370-9a2c-4bc7-964b-217a2d9e22b9}">
@@ -109,29 +109,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2bae76ae-aeec-4a69-90cd-1e69219d23ab}" />
-	<object class="MultiSound" id="{9159da99-f216-4b5a-9271-3f4a0da951b7}">
-		<property name="triggerProbabilityEnabled">
-			<value>true</value>
-		</property>
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="MultiSound" id="{18b20d06-9276-49da-b9e8-ed428712b7e9}">
 		<property name="length">
-			<value>0.40000000000000002</value>
-		</property>
-		<property name="voiceStealing">
-			<value>3</value>
-		</property>
-		<property name="name">
-			<value>/dialogs_wopl/english/voise_messages/voice1/voice_message_attack_A_0_1</value>
+			<value>0.32500000000000001</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{4f88531f-daa9-4274-a979-555e3ddf6c2c}</destination>
-			<destination>{5ed8578a-6c22-4d89-ba21-4a00cbb39e9a}</destination>
-			<destination>{495739c3-7093-44dd-a467-73991c07d715}</destination>
-			<destination>{62c59f13-7e54-4265-a18d-4993c69e25fa}</destination>
-			<destination>{e923def6-b302-496a-94b0-83d14dc3bfdc}</destination>
-			<destination>{e2621b1e-9282-4c7f-bd3a-67cd85d4f6e0}</destination>
+			<destination>{470504d8-91d0-490b-85cd-34efbe711cc9}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{fb2d5011-3cfc-4a45-9ba1-a202df3abf91}">
@@ -155,34 +138,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{7bac1a40-673c-44d3-a0c0-be8c9bea6028}" />
 	<object class="MixerBusFader" id="{e3430dec-c11e-420a-8a41-4f6cb807f777}" />
-	<object class="ProgrammerSound" id="{4f88531f-daa9-4274-a979-555e3ddf6c2c}">
+	<object class="ProgrammerSound" id="{470504d8-91d0-490b-85cd-34efbe711cc9}">
 		<property name="name">
-			<value>voice_messages/voice4/voice_message_air_danger_v-001</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{5ed8578a-6c22-4d89-ba21-4a00cbb39e9a}">
-		<property name="name">
-			<value>voice_messages/voice4/voice_message_air_danger_v-002</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{495739c3-7093-44dd-a467-73991c07d715}">
-		<property name="name">
-			<value>voice_messages/voice4/voice_message_air_danger_v-003</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{62c59f13-7e54-4265-a18d-4993c69e25fa}">
-		<property name="name">
-			<value>voice_messages/voice4/voice_message_air_danger_v-004</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{e923def6-b302-496a-94b0-83d14dc3bfdc}">
-		<property name="name">
-			<value>voice_messages/voice4/voice_message_air_danger_v-005</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{e2621b1e-9282-4c7f-bd3a-67cd85d4f6e0}">
-		<property name="name">
-			<value>voice_messages/voice4/voice_message_air_danger_v-006</value>
+			<value>air_danger</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{cbcf74df-2818-44cf-b1d6-f6a9aff0c6d3}">

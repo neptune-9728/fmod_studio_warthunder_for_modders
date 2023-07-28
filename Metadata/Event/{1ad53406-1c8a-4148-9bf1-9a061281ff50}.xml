@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{1ad53406-1c8a-4148-9bf1-9a061281ff50}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>voice_message_gunner_fire_fighting_compartment</value>
 		</property>
@@ -114,9 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{be482d47-d03f-4ce8-a07c-1560061c76d6}</destination>
-			<destination>{f00a93d0-1bb6-44c3-ab94-ea1e0afd638d}</destination>
-			<destination>{e097177c-ec25-44c0-bedb-029314804a29}</destination>
+			<destination>{a27d7559-d29c-47da-8368-d45f10aab99a}</destination>
+			<destination>{1bbe63b2-c6de-4197-ab89-ac59f8c48834}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{bbf11bc6-06c7-4443-ae71-df16ab47a443}">
@@ -143,28 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{ba85e12b-a98e-4fb4-8cbb-a0903fd9d7c0}" />
 	<object class="MixerBusFader" id="{24330203-766b-4b1f-bfa6-69e9322e3cef}" />
-	<object class="ProgrammerSound" id="{be482d47-d03f-4ce8-a07c-1560061c76d6}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{a27d7559-d29c-47da-8368-d45f10aab99a}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_fire_fighting_compartment_v1</value>
+			<value>fire_compartment_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{f00a93d0-1bb6-44c3-ab94-ea1e0afd638d}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{1bbe63b2-c6de-4197-ab89-ac59f8c48834}">
 		<property name="name">
-			<value>high/gunner/voice_message_gunner_fire_fighting_compartment_v1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{e097177c-ec25-44c0-bedb-029314804a29}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/gunner/voice_message_gunner_fire_fighting_compartment_v1</value>
+			<value>fire_compartment_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{06829d35-dccc-49ea-9abe-804bafb9a204}">

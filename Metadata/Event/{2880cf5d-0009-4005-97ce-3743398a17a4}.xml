@@ -114,10 +114,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{1e767a38-9a80-4706-9f2e-d90b622d536c}</destination>
-			<destination>{bf3ed80b-ca4c-43c8-b0fc-48d9d5529041}</destination>
-			<destination>{04d0e8ab-f6b6-430c-9ffd-1fc1e24b739b}</destination>
-			<destination>{fe277c38-f8fa-49fd-a4f9-80ad9ad2e981}</destination>
+			<destination>{bbef5a9a-c588-45a1-8fde-3a69dd220cd1}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{8b2ad7aa-b0b3-4b5e-bfa7-96bcfa203e0c}">
@@ -144,36 +141,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{1afa7a8c-77b3-4201-86e2-14de3f765b85}" />
 	<object class="MixerBusFader" id="{dc58d0d6-b6a3-4d28-9487-ebeaddb6769e}" />
-	<object class="ProgrammerSound" id="{1e767a38-9a80-4706-9f2e-d90b622d536c}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{bbef5a9a-c588-45a1-8fde-3a69dd220cd1}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_art_barrage_v1_1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{bf3ed80b-ca4c-43c8-b0fc-48d9d5529041}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_art_barrage_v1_2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{04d0e8ab-f6b6-430c-9ffd-1fc1e24b739b}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_art_barrage_v2_1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{fe277c38-f8fa-49fd-a4f9-80ad9ad2e981}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_art_barrage_v2_2</value>
+			<value>artillery_barrage</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{06ceb876-874b-4549-8bd7-975e0c6eff42}">

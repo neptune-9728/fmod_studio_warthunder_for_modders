@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{8a8e3c7e-651d-4781-9e45-eb5f0545a187}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_ucav_recover</value>
 		</property>
@@ -114,10 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{febd81b9-2d5c-42b3-8c3b-a9822e1048f5}</destination>
-			<destination>{3db50432-7e39-42d2-a831-f15d70908a7a}</destination>
-			<destination>{bcd032ee-fcd5-42f8-8eff-9229a56aed3e}</destination>
-			<destination>{ff134618-1906-4373-a53b-6fc86bccfe68}</destination>
+			<destination>{12539892-6376-4b94-b9f3-4c165cc83e6c}</destination>
+			<destination>{c0d5a42a-97b1-4ad1-9eb0-a6ba8d0a258b}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{ab2e9583-01d7-4e30-916d-86509a627d93}">
@@ -144,36 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{5662b771-4b43-46da-b1a7-5fb0564549f5}" />
 	<object class="MixerBusFader" id="{6634a14f-ed00-4f3d-aebd-be4fd86ee336}" />
-	<object class="ProgrammerSound" id="{febd81b9-2d5c-42b3-8c3b-a9822e1048f5}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{12539892-6376-4b94-b9f3-4c165cc83e6c}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_ucav_recover_v1_1</value>
+			<value>ucav_off_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{3db50432-7e39-42d2-a831-f15d70908a7a}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{c0d5a42a-97b1-4ad1-9eb0-a6ba8d0a258b}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_ucav_recover_v1_2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{bcd032ee-fcd5-42f8-8eff-9229a56aed3e}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_ucav_recover_v1_3</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{ff134618-1906-4373-a53b-6fc86bccfe68}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_ucav_recover_v2</value>
+			<value>ucav_off_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{2b967945-690a-44c5-8360-b7839d19b814}">

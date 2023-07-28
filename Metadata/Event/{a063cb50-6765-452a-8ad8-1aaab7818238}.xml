@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{a063cb50-6765-452a-8ad8-1aaab7818238}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>voice_message_loader_fire_fighting_compartment</value>
 		</property>
@@ -114,9 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{39359fd0-a38e-47dc-94b6-63b92d4f29d9}</destination>
-			<destination>{d54f1bc2-1d25-4e34-9b3e-1cf60a6f8e6b}</destination>
-			<destination>{dccc7a08-92c9-4ae4-b04c-a1f3cff48651}</destination>
+			<destination>{a647be96-12f8-4d44-9b73-ca1238e874d7}</destination>
+			<destination>{cb52c080-82d6-41bd-af31-a29413f33d36}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{cb79c9de-d9d8-4153-99cc-6b247dff354c}">
@@ -143,28 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{5c7f1d84-a209-4d11-b09c-d85ed3dd2df1}" />
 	<object class="MixerBusFader" id="{078d4e6f-5bbe-4d0d-a021-5563427507ef}" />
-	<object class="ProgrammerSound" id="{39359fd0-a38e-47dc-94b6-63b92d4f29d9}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{a647be96-12f8-4d44-9b73-ca1238e874d7}">
 		<property name="name">
-			<value>high/loader/voice_message_loader_fire_fighting_compartment_v1</value>
+			<value>fire_compartment_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{d54f1bc2-1d25-4e34-9b3e-1cf60a6f8e6b}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{cb52c080-82d6-41bd-af31-a29413f33d36}">
 		<property name="name">
-			<value>high/loader/voice_message_loader_fire_fighting_compartment_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{dccc7a08-92c9-4ae4-b04c-a1f3cff48651}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/loader/voice_message_loader_fire_fighting_compartment_v3</value>
+			<value>fire_compartment_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{f5ad5826-ccf2-404c-b2df-40e3cbac1a30}">

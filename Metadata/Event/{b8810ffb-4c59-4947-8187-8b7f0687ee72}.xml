@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{b8810ffb-4c59-4947-8187-8b7f0687ee72}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_target_leclerc</value>
 		</property>
@@ -114,7 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{ff0ac6f8-199f-41e9-b92b-79a3eca022b3}</destination>
+			<destination>{33f98da5-af57-46ef-8175-cbc470ca737a}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{3199e734-3d9f-47d9-b678-44b6c66d8c28}">
@@ -141,12 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{ba82ab22-14f8-4975-a4e5-97fce4fbe9c9}" />
 	<object class="MixerBusFader" id="{4f69a61b-d980-4bd7-829a-a5ce57a26854}" />
-	<object class="ProgrammerSound" id="{ff0ac6f8-199f-41e9-b92b-79a3eca022b3}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{33f98da5-af57-46ef-8175-cbc470ca737a}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_target_leclerc</value>
+			<value>LeClerc</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{f7ba61c8-0bf3-42f4-b924-9fcea7990ed6}">

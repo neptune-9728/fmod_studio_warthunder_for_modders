@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{253069c7-710a-4996-8b8c-c947609dad03}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_commander_art_barrage</value>
 		</property>
@@ -114,10 +117,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{2bb4c962-df66-4c1c-a5bd-ed945f2d64d4}</destination>
-			<destination>{0fff8b4a-55aa-4583-8ab4-f2cdb417eb6f}</destination>
-			<destination>{820a3365-ebec-40a5-9a52-62e4d6d1fb9e}</destination>
-			<destination>{0586d352-8eba-4f40-abca-36817e0a9875}</destination>
+			<destination>{0d7b1e09-1a82-4d1e-81b5-e404339159dc}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{2ea487e0-45d0-4a45-b6cc-8842dec9e4a1}">
@@ -144,36 +144,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{4f859eef-e936-425d-889a-50c27af55c09}" />
 	<object class="MixerBusFader" id="{a4311c1d-8f1e-490b-999c-61edfa019d16}" />
-	<object class="ProgrammerSound" id="{2bb4c962-df66-4c1c-a5bd-ed945f2d64d4}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{0d7b1e09-1a82-4d1e-81b5-e404339159dc}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_art_barrage_v1_1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{0fff8b4a-55aa-4583-8ab4-f2cdb417eb6f}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_art_barrage_v1_2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{820a3365-ebec-40a5-9a52-62e4d6d1fb9e}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_art_barrage_v2_1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{0586d352-8eba-4f40-abca-36817e0a9875}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_art_barrage_v2_2</value>
+			<value>artillery_barrage</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{faa4b46d-6ef4-4b84-9507-8c2a2fd21ae7}">

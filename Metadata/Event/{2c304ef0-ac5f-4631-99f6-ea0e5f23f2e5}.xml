@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{2c304ef0-ac5f-4631-99f6-ea0e5f23f2e5}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_driver_engine_ready</value>
 		</property>
@@ -114,9 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{7a59cca9-0ce7-448d-b4d9-5bf28d479467}</destination>
-			<destination>{d68548f6-1233-49f0-aad0-20b711d3f2b1}</destination>
-			<destination>{d9cf48c1-b731-4a4a-addb-597b2172d77e}</destination>
+			<destination>{e80a8dcb-bb33-43d0-a4ec-8be8d4a2401f}</destination>
+			<destination>{24e1accd-022c-4c20-b553-c5f5fee9173d}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{418c0f55-c3e3-40b6-bd60-281c85956479}">
@@ -143,28 +145,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{11adc0a0-34ba-43b6-8ade-b03283f8c612}" />
 	<object class="MixerBusFader" id="{365a4c10-5a3b-48cd-82f4-d6b07c61a3e7}" />
-	<object class="ProgrammerSound" id="{7a59cca9-0ce7-448d-b4d9-5bf28d479467}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{e80a8dcb-bb33-43d0-a4ec-8be8d4a2401f}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_engine_ready_v1</value>
+			<value>engine_ready_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{d68548f6-1233-49f0-aad0-20b711d3f2b1}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{24e1accd-022c-4c20-b553-c5f5fee9173d}">
 		<property name="name">
-			<value>high/driver/voice_message_driver_engine_ready_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{d9cf48c1-b731-4a4a-addb-597b2172d77e}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/driver/voice_message_driver_engine_ready_v3</value>
+			<value>engine_ready_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{5dd51cbf-3b48-4d95-9c91-d7db40b476c8}">

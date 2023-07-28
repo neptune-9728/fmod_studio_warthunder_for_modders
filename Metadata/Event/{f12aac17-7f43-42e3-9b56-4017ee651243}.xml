@@ -114,9 +114,9 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{1f0a38f3-de6c-4f41-841d-1a6a01697071}</destination>
-			<destination>{4dd975b6-15b9-41ad-9097-cad0c687e27d}</destination>
-			<destination>{f650be81-299f-4826-8708-f764b8954ff7}</destination>
+			<destination>{1bd3831c-b794-474e-8cf8-3e7045926b2f}</destination>
+			<destination>{f1b1baa4-14bc-48b0-ba95-99735bac4b31}</destination>
+			<destination>{ce06d3de-7d79-4051-b466-885d7759c0b0}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{38d762f1-8798-49dd-9f10-9a1a5f84a142}">
@@ -143,28 +143,19 @@
 	</object>
 	<object class="MixerBusPanner" id="{5545520d-035e-44af-ae05-4ed07bab9b60}" />
 	<object class="MixerBusFader" id="{217705c8-1498-4ef1-b5f9-c58fd72b66f5}" />
-	<object class="ProgrammerSound" id="{1f0a38f3-de6c-4f41-841d-1a6a01697071}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{1bd3831c-b794-474e-8cf8-3e7045926b2f}">
 		<property name="name">
-			<value>high/artillery/voice_message_artillery_acknowledged_v1</value>
+			<value>understood_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{4dd975b6-15b9-41ad-9097-cad0c687e27d}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{f1b1baa4-14bc-48b0-ba95-99735bac4b31}">
 		<property name="name">
-			<value>high/artillery/voice_message_artillery_acknowledged_v2</value>
+			<value>understood_2</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{f650be81-299f-4826-8708-f764b8954ff7}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{ce06d3de-7d79-4051-b466-885d7759c0b0}">
 		<property name="name">
-			<value>high/artillery/voice_message_artillery_acknowledged_v3</value>
+			<value>Acknowledged</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{07504287-7ed5-4ccb-b1c6-70b1143043e7}">

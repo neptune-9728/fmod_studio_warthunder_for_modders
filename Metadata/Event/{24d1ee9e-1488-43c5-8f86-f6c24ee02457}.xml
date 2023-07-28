@@ -114,9 +114,7 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{61c0c1f9-53df-4012-a98d-9fb40a99ab63}</destination>
-			<destination>{18f8b1cf-3572-445a-827c-a56ba0de8812}</destination>
-			<destination>{e41ea701-4ffc-4e1e-8408-aeb794eb7143}</destination>
+			<destination>{0953109b-be53-4e64-8003-4657b65ff0a1}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{33984746-04e6-493a-8298-ca7ce4891b7b}">
@@ -143,28 +141,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{602d3535-d9cf-422f-81b2-1b9055cc23e1}" />
 	<object class="MixerBusFader" id="{a51781c1-441e-49a9-9f17-cc9ca63d524b}" />
-	<object class="ProgrammerSound" id="{61c0c1f9-53df-4012-a98d-9fb40a99ab63}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{0953109b-be53-4e64-8003-4657b65ff0a1}">
 		<property name="name">
-			<value>high/commander/voice_message_commander_load_flares_v1</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{18f8b1cf-3572-445a-827c-a56ba0de8812}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_load_flares_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{e41ea701-4ffc-4e1e-8408-aeb794eb7143}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/commander/voice_message_commander_load_flares_v3</value>
+			<value>flares</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{4d388322-2ab7-49eb-b498-57293166bdd8}">

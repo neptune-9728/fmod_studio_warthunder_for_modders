@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{ce707b4c-cdf7-4c5d-bef6-10f7ddaeb984}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>voice_message_chief_battle_win</value>
 		</property>
@@ -125,10 +128,8 @@
 			<value>2</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{81889f2b-a00f-491d-a71c-71c17c7bcec2}</destination>
-			<destination>{1ca50554-cfe7-4a68-a663-47bc66c42c4a}</destination>
-			<destination>{cbf85138-dc4c-4b7a-b82b-67e1cd216179}</destination>
-			<destination>{c16a6321-6cd1-45dd-8e39-96a75851c73c}</destination>
+			<destination>{ddf1a813-5fc9-489b-b4a1-c09f20ad0a76}</destination>
+			<destination>{8a1739a5-b4ec-410b-bf5d-c2127758fa5b}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{f3bcacfd-d221-4ab3-806f-4db4c7d35f98}">
@@ -155,36 +156,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{eb6bccdd-1f89-4198-a972-be5c99fde127}" />
 	<object class="MixerBusFader" id="{d5710db5-ba62-4c3b-b4e8-2c566ff1318a}" />
-	<object class="ProgrammerSound" id="{81889f2b-a00f-491d-a71c-71c17c7bcec2}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{ddf1a813-5fc9-489b-b4a1-c09f20ad0a76}">
 		<property name="name">
-			<value>high/chief_m/voice_message_chief_battle_win_v1</value>
+			<value>win_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{1ca50554-cfe7-4a68-a663-47bc66c42c4a}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="ProgrammerSound" id="{8a1739a5-b4ec-410b-bf5d-c2127758fa5b}">
 		<property name="name">
-			<value>high/chief_m/voice_message_chief_battle_win_v2</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{cbf85138-dc4c-4b7a-b82b-67e1cd216179}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/chief_m/voice_message_chief_battle_win_v3</value>
-		</property>
-	</object>
-	<object class="ProgrammerSound" id="{c16a6321-6cd1-45dd-8e39-96a75851c73c}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
-		<property name="name">
-			<value>high/chief_m/voice_message_chief_battle_win_v4</value>
+			<value>win_2</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{f51d0d51-01cf-4f14-b7b0-788b62941d93}">

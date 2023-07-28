@@ -119,6 +119,7 @@
 		<relationship name="sounds">
 			<destination>{bbae5d82-a67c-4f7d-bc28-f98f20f70ae2}</destination>
 			<destination>{bad2ce86-f807-425c-af76-591ef2ee087f}</destination>
+			<destination>{a0117b4c-76be-4e5b-b4ba-683a405dd7fc}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{b55a5264-4f44-499e-88a8-f545bbd36489}">
@@ -153,6 +154,11 @@
 	<object class="ProgrammerSound" id="{bad2ce86-f807-425c-af76-591ef2ee087f}">
 		<property name="name">
 			<value>hit_2</value>
+		</property>
+	</object>
+	<object class="ProgrammerSound" id="{a0117b4c-76be-4e5b-b4ba-683a405dd7fc}">
+		<property name="name">
+			<value>hit_3</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{16131237-35ce-421f-b3f6-f5107530bbf2}">

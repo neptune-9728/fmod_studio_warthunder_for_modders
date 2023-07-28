@@ -117,8 +117,8 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{8fdc267c-4499-4985-919f-21af15be5f20}</destination>
-			<destination>{a68fd1dc-7333-4b32-a7b4-d41b6d924c14}</destination>
+			<destination>{70f793c5-b874-42a0-94da-02f9f05a1c1c}</destination>
+			<destination>{19538689-85e2-402b-bbbe-3e846d0efc34}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{96e83ac8-0edf-4977-8927-0fe7214ba35b}">
@@ -145,12 +145,12 @@
 	</object>
 	<object class="MixerBusPanner" id="{1d21aa95-49c7-4d49-a6f2-408f1e9f721c}" />
 	<object class="MixerBusFader" id="{0b95a903-eb8b-4bbc-ab59-b8047a7e933f}" />
-	<object class="ProgrammerSound" id="{8fdc267c-4499-4985-919f-21af15be5f20}">
+	<object class="ProgrammerSound" id="{70f793c5-b874-42a0-94da-02f9f05a1c1c}">
 		<property name="name">
 			<value>coordinates_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{a68fd1dc-7333-4b32-a7b4-d41b6d924c14}">
+	<object class="ProgrammerSound" id="{19538689-85e2-402b-bbbe-3e846d0efc34}">
 		<property name="name">
 			<value>coordinates_2</value>
 		</property>

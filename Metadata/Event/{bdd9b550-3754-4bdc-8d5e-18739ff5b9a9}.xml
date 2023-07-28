@@ -114,8 +114,13 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{f42a509d-ebdd-480c-820f-f80d8ade5ea0}</destination>
-			<destination>{f36afa2f-c097-44f5-9494-1b392292c5e9}</destination>
+			<destination>{1296292c-4df9-4531-a0db-9ba88e59f72a}</destination>
+			<destination>{7de48de7-0575-4719-b77a-4b67434616c0}</destination>
+			<destination>{9a10dd0c-7270-4a75-b569-d10c240eac86}</destination>
+			<destination>{dcc43d14-4831-4a10-a027-c0b82a87ff29}</destination>
+			<destination>{2da28f4e-ad34-4fdd-8479-ff558e9f1cb5}</destination>
+			<destination>{a58ede0d-63ab-4a69-a170-9b5d2783e469}</destination>
+			<destination>{ae884991-cb30-4f99-8c9b-0bc232287ad8}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{0b651215-fd9e-4049-9500-30a957dbff27}">
@@ -142,14 +147,39 @@
 	</object>
 	<object class="MixerBusPanner" id="{aa9e46c7-f7a0-46b1-b1bb-b8f8f7192e05}" />
 	<object class="MixerBusFader" id="{62c51104-dc75-4799-badf-b718c7fb3259}" />
-	<object class="ProgrammerSound" id="{f42a509d-ebdd-480c-820f-f80d8ade5ea0}">
+	<object class="ProgrammerSound" id="{1296292c-4df9-4531-a0db-9ba88e59f72a}">
 		<property name="name">
 			<value>destory_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{f36afa2f-c097-44f5-9494-1b392292c5e9}">
+	<object class="ProgrammerSound" id="{7de48de7-0575-4719-b77a-4b67434616c0}">
 		<property name="name">
 			<value>destory_2</value>
+		</property>
+	</object>
+	<object class="ProgrammerSound" id="{9a10dd0c-7270-4a75-b569-d10c240eac86}">
+		<property name="name">
+			<value>destory_3</value>
+		</property>
+	</object>
+	<object class="ProgrammerSound" id="{dcc43d14-4831-4a10-a027-c0b82a87ff29}">
+		<property name="name">
+			<value>destory_4</value>
+		</property>
+	</object>
+	<object class="ProgrammerSound" id="{2da28f4e-ad34-4fdd-8479-ff558e9f1cb5}">
+		<property name="name">
+			<value>destory_5</value>
+		</property>
+	</object>
+	<object class="ProgrammerSound" id="{a58ede0d-63ab-4a69-a170-9b5d2783e469}">
+		<property name="name">
+			<value>destory_6</value>
+		</property>
+	</object>
+	<object class="ProgrammerSound" id="{ae884991-cb30-4f99-8c9b-0bc232287ad8}">
+		<property name="name">
+			<value>destory_7</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{4ca138df-9884-4fb5-be68-0ca11e1e47cb}">

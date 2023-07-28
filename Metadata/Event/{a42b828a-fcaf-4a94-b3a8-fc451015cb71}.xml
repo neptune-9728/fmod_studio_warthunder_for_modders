@@ -114,8 +114,9 @@
 			<value>0.40000000000000002</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{1836a1aa-99ca-4763-9470-f8a4e1b9cbcb}</destination>
-			<destination>{adcb3295-805a-49af-be51-eca58d6ece5d}</destination>
+			<destination>{218e2d90-b645-4ab8-8a69-03e6c89e36bf}</destination>
+			<destination>{ee30af7e-7f02-4253-8fb9-833a5bd9b910}</destination>
+			<destination>{762cd625-72a8-49a8-a1f3-0d1652c60fa7}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{108ec53d-77c5-4047-9fef-39b8244b592e}">
@@ -142,14 +143,19 @@
 	</object>
 	<object class="MixerBusPanner" id="{c8dcc119-b78e-42f1-9db3-980f14285263}" />
 	<object class="MixerBusFader" id="{1e6e2c41-6643-4416-95f5-44f38df6d316}" />
-	<object class="ProgrammerSound" id="{1836a1aa-99ca-4763-9470-f8a4e1b9cbcb}">
+	<object class="ProgrammerSound" id="{218e2d90-b645-4ab8-8a69-03e6c89e36bf}">
 		<property name="name">
 			<value>hit_1</value>
 		</property>
 	</object>
-	<object class="ProgrammerSound" id="{adcb3295-805a-49af-be51-eca58d6ece5d}">
+	<object class="ProgrammerSound" id="{ee30af7e-7f02-4253-8fb9-833a5bd9b910}">
 		<property name="name">
 			<value>hit_2</value>
+		</property>
+	</object>
+	<object class="ProgrammerSound" id="{762cd625-72a8-49a8-a1f3-0d1652c60fa7}">
+		<property name="name">
+			<value>hit_3</value>
 		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{92ab92fe-aaff-4c81-80ec-49aa1b20ffd8}">

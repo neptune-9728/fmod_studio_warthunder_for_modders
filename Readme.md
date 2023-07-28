@@ -1,131 +1,60 @@
-## BY USING THIS CONTENT YOU AGREE TO THE FOLLOWING CONTRIBUTION AGREEMENT
+#  来自官方库的副本 以后大更新可能会导致副本出错 建议使用官方库 副本只作参考!
+## 官方库地址:https://github.com/GaijinEntertainment/fmod_studio_warthunder_for_modders
 
-https://live.warthunder.com/contribution_agreement/?lang=en
+---
 
-This repository contains the Fmod Studio project for War Thunder. This project allows you to create sound modifications. The project doesn’t include crew chat, other monologues, and music. To save space, assets are compressed into vorbis format in the .ogg container (extensions renamed to .wav to preserve the integrity of the original sound event). To keep the project work in the game you shouldn't change sound events names, and the structure of their location in the project.  Also, do not change the structure of the mixer buses.
+## 你需要注意的
+请使用**2.1.6**版本的FMOD 过高会Build错误!
+音频尽量使用**WAV**格式
+---
 
-Actual Fmod Studio version - 2.1.6
+# 我个人理解的教程
+---
 
-Important notice:
-In this repository we added compressed assets (with losses, ogg, vorbis) in order to decrease the size of repository (originally over 20 Gb). This project is intended to use with not compressed assets (wav, 44100 Hz, 16bit for example), because it has global compression settings (vorbis, 37% quality). If compressed again, already compressed assets will loose sound quality a lot, and may sound with audible metallic overtone.
+## 基于官方库创作:
+1. 拷贝官方库到本地
+1.1 关于库的内容 (你大概会用上的)
+    **本地文件**  Assets -> **原声** Metadata -> **事件**
 
-## ИСПОЛЬЗУЯ ДАННЫЕ МАТЕРИАЛЫ, ВЫ СОГЛАШАЕТЕСЬ СО СЛЕДУЮЩИМ СОГЛАШЕНИЕМ О ПРЕДОСТАВЛЕНИИ КОНТЕНТА
+    dialogs_wt_tanks_2023 -> **新版本陆战乘员组语音包** （只有英配和俄配）
+    radio_chat -> **空战无线电** 
+    gui -> **部分UI音效**
+    dialogs_wopl\english\voice_messages -> **无线电**
 
-https://live.warthunder.com/contribution_agreement/?lang=ru
+2.启动FMOD
+2.1 关于FMOD的内容
+    dialogs_crew_ground -> **乘员组**
+    dialogs_crew_aircraft -> **无线电**
+    airfraft\music -> **音乐**
 
-Данный репозиторий содержит проект Fmod Studio для игры War Thunder. На его основе можно создавать звуковые модификации. В проект не включены реплики экипажей, прочие монологи, музыка. Ассеты, в целях экономии места, сжаты в формат vorbis в контейнере ogg (расширения переименованы в wav для сохранения целостности исходного звукового ивента). Для работоспособности проекта в игре не надо менять имена звуковых ивентов, и структуру их расположения в проекте. Так же не надо менять структуру шин микшера.
+3.导入的两种方法 B方法也是基于我的副本使用的导入方法
+（A）直接将语音文件拖入事件中
+（B）修改Banks路径到我想修改的语音文件夹中 具体操作:
+举例修改中文客户端的陆战乘员组
+    进入**Banks** 
+    选择路径: dialogs_wt_tanks_new {_crew_dialogs_ground_new_zh -> Audio Table}
+    点击Browse后选择存放要修改的语音包文件夹
+    为要修改的语音事件创建**Programmer Instrument** 重命名和语音包文件夹要修改的语音文件一样的名字
 
-Актуальная версия Fmod Studio - 2.1.6
+4.导出
+举例导出中文客户端的陆战乘员组 
+    进入**Banks**
+    选择路径: dialogs_wt_tanks_new {_crew_dialogs_ground_new_zh} + **{_crew_dialogs_ground_new}** 必要
+    右键**Build**
 
-Важно:
-В репозиторий добавлены ассеты, сжатые с потерями (ogg, vorbis).  Это сделано для того, чтобы уменьшить объем ассетов, в не сжатом виде он превышает 20 Гб. То есть проект предназначен для работы с не сжатыми ассетами (wav, например 44100 Гц, 16 бит), поскольку в нем выставлены глобальные настройки сжатия (vorbis, качество 37%). Повторно сжатые ассеты сильно теряют в качестве, и могут звучать с заметным металлическим призвуком.
+5.使用
+在完成导出的步骤后，进入本地库的文件夹
+    进入路径 **Build** 会发现文件以及被生成好了
+    将除了**masterbank**那三个文件 剩下的导入游戏**mod**文件夹内即可
+---
+## 基于我的副本修改:
+其实和官方库没什么区别 还是建议使用官方库
 
-Patch notes:
---------------------------------------------------------------------------------------------------------
-19.06.2023 - La Royale fmod project update.
-----------------------------------
++主要修改是给语音事件标注了颜色
+    [绿色]单独使用的声音事件
+    [红色]没有任何声音事件
+    [在当前文件夹别的颜色]有重复或跨文件夹使用的声音事件
++移除了噪音事件
+会导致生成的**masterbank**文件不能正常使用
 
-Added new ground vehicles and naval vessels crew sound events. Also added all languages banks for naval crew and English UK, English US, Russian languages banks.
-Added new snapshot for ground vehicles with open turret, "tank_open", works like snapshot "tank".
-Added several new sound events: for btr80a engine, for radiator damage, for type 23L cannon.
-
------------------------
-05.04.2023 - Sky Guardians fmod project update.
-----------------------------------
-
-Added several new sound events for the new tech. Some sound assets (explosions, cannon shots, etc) hads been updated.
-
------------------------
-27.12.2022 - Apex Predators fmod project update.
-----------------------------------
-
-Added several new sound events for the new tech.
-
------------------------
-02.11.2022 - Fire and Ice fmod project update.
-----------------------------------
-
-Added several new sound events for the new tech.
-
------------------------
-01.07.2022 - Danger Zone fmod project update.
-----------------------------------
-
-Nothing special about this update, just new ground vehicles engines sound events, F-14 engine sound event, miscellaneous events.
-
------------------------
-01.04.2022 - Wind of Change fmod project update.
-----------------------------------
-
-The major feature of this uipdate is deviding every bank file on two: on assets banks (.assets.bank) and meta-data banks (.bank). This made by switching corresponding flag in project build sessings. Also, there are some name changes of dialogs sound banks.
-
------------------------
-29.12.2021 - Winged Lions fmod project update.
-----------------------------------
-
-Added new jet engines sound events. Added new jet fly by sound assets, ground cannons sound assets, and some other sound assets.
-
------------------------
-03.11.2021 - Ground Breaking fmod project update.
-----------------------------------
-
-Nothing special about this update. Just some new sound events and minor tweaks.
-
-Update: Added German localisation for voice messages and commands.
-
------------------------
-17.09.2021 - Direct Hit fmod project update.
-----------------------------------
-
-This update got the new automatic weapon sound system, and new automatic weapon sound events, for all in-game vehicles. In a nutshell, it is a kind of loop mode, but with an element of a granular synthesis. You can read about how you can switch the support of sound modification between old and new weapon sound systems here:
-
-EN:
-https://wiki.warthunder.com/Sound_modifications
-
-RU:
-https://wiki.warthunder.ru/%D0%97%D0%B2%D1%83%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BC%D0%BE%D0%B4%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8
-
------------------------
-18.06.2021 - Red Skies fmod project update.
-----------------------------------
-
-The main feature of this update - there is no more hangar.bank, all sound events distributed between other fmod banks (make sure you have no old hangar.bank in your mod folder, it can lead to random consequences, like super-loud sounds). Also, now we have more ground vehicles tracks sound events, and several new sound events, like pjojectiles camera for naval battles, ground vehicles suspension hits, etc.
-
------------------------
-30.03.2021 - Added custom script for weapon rapid fire tests.
-----------------------------------
-
-Now you can try rapid fire with "Ctrl+," shortcut. Update fmod project and run Script->Reload menu command. Then, choose weapon sound event that contains on_shot parameter, press Play, and hit "Ctrl+,". You also will be able to adjust fire rate from 0 to 2000 rpm.
-
--------------------------------------------------------------------------------------------------------------------------------
-24.03.2021 - Ixwa Strike project update.
-----------------------------------
-
-The main feature of this project is aircraft weapon sound generation system, now it is oneshot instead of looping mode. But, still you can switch between looping and oneshot system, by typing useLoopsForGunSound:b=yes in sound{} block of config.blk.
-
-PS: hangar.bank still contains music events, that's bad news. But, I'm about to get rid of it in the next major update.
-
-----------------------------------
-25.12.2020 - Fmod Studio project version changed to 2.1.6.
--------------------------------------------------------------------------------------------------------------------------------
-High fire rate weapon sound events forming method changed from loop to one shot.
-Note: now you can choose automatic weapon sound events forming method (loop/oneshot) by adding in config.blk in sound{} block this string: useLoopsForGunSound:b=yes
-
-27.11.2020 - Fmod Studio project updated to "New Power" release state.
--------------------------------------------------------------------------------------------------------------------------------
-16.07.2020 - Fmod Studio version updated. Now it is 2.00.09.
--------------------------------------------------------------------------------------------------------------------------------
-New dialog localisations (assets) will be added gradually with next commits.
--------------------------------------------------------------------------------------------------------------------------------
-09.04.2020 - Added fmod project version related to major patch 1.97.1.X
-
-Fmod Studio version - 1.10.17
-
- - Weapon system reworked, added "on_shot" parameter that triggers shot event. That was done for better sound channels control.
- - Explosions and cannons gain a modular assembly system.
- - Added crew dialogs, all languages for ground and naval crew, aircraft crew - only english and russian (for now).
- - Added empty music events
-
-Notes:
-music events in aircraft/music/init should be empty, do not add any music in these events.
--------------------------------------------------------------------------------------------------------------------------------
+## 更详细的教程或者我想说的会以后更新 因为现在涅涅子要睡觉了 XD
